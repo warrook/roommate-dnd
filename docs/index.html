@@ -47,7 +47,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>Roommate D&D — a wiki for all the things</title>
+<title>Roommate D&D — pretend you live in a fantasy world</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~-->
 
 <!--~~ Raw markup ~~-->
@@ -155,7 +155,11 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/config/TextEditor/EnableToolbar</li>
+
+<li>$:/config/Toolbar/Icons</li>
 
 <li>$:/config/Toolbar/Text</li>
 
@@ -199,7 +203,13 @@ Error message and password prompt
 
 <li>$:/state/advancedsearch/currentTab</li>
 
+<li>$:/state/edit/references--1555482013</li>
+
+<li>$:/state/edit/references-993057009</li>
+
 <li>$:/state/Excise/--383396827/tagnew</li>
+
+<li>$:/state/Excise/-1833592066/tagnew</li>
 
 <li>$:/state/folded/$:/AdvancedSearch</li>
 
@@ -229,6 +239,8 @@ Error message and password prompt
 
 <li>$:/state/tab-2065006209</li>
 
+<li>$:/state/tab/moresidebar-1850697562</li>
+
 <li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
@@ -237,11 +249,15 @@ Error message and password prompt
 
 <li>$:/state/toc/TableOfContents-Gaia--118161433</li>
 
+<li>$:/state/toc/TableOfContents/Basics-Deity--118161433</li>
+
 <li>$:/state/toc/TableOfContents/Basics-Magic--118161433</li>
 
 <li>$:/state/toc/TableOfContents/Gaia-Desolation--118161433</li>
 
 <li>$:/state/toc/TableOfContents/Gaia/Desolation-Southeast Desolation--118161433</li>
+
+<li>$:/state/tree/$:/tags/</li>
 
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
@@ -249,11 +265,21 @@ Error message and password prompt
 
 <li>$:/StoryList</li>
 
+<li>$:/temp/info-plugin</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
 <li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
+
+<li>$:/themes/tiddlywiki/vanilla/options/stickytitles</li>
+
+<li>$:/user/SecretTemplate</li>
+
+<li>$:/user/ui/Buttons/publish</li>
+
+<li>Accomplishments</li>
 
 <li>Basics</li>
 
@@ -261,23 +287,29 @@ Error message and password prompt
 
 <li>Changelings</li>
 
+<li>Deity</li>
+
 <li>Desolation</li>
 
 <li>Firekeeper</li>
 
 <li>Gaia</li>
 
-<li>Gods</li>
-
 <li>Godsbrand</li>
+
+<li>List of Deities</li>
 
 <li>Magic</li>
 
-<li>Races</li>
+<li>Play History</li>
+
+<li>Race</li>
 
 <li>Southeast Desolation</li>
 
 <li>TableOfContents</li>
+
+<li>Threads</li>
 
 <li>Tinal</li>
 
@@ -316,10 +348,16 @@ Error message and password prompt
 <div created="20201228034817441" creator="Provun" modified="20201229235834481" modifier="Provun" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
 <pre>show</pre>
 </div>
-<div created="20201228033904340" creator="Provun" modified="20201228033912080" modifier="Provun" title="$:/config/TextEditor/EnableToolbar">
+<div created="20210112062058389" creator="Provun" modified="20210112062058389" modifier="Provun" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
 </div>
-<div created="20201228194144352" creator="Provun" modified="20201228194149461" modifier="Provun" title="$:/config/Toolbar/Text">
+<div created="20201228033904340" creator="Provun" modified="20210112080545844" modifier="Provun" title="$:/config/TextEditor/EnableToolbar">
+<pre>yes</pre>
+</div>
+<div created="20210112080702625" creator="Provun" modified="20210112080706285" modifier="Provun" title="$:/config/Toolbar/Icons">
+<pre>yes</pre>
+</div>
+<div created="20201228194144352" creator="Provun" modified="20210112080709682" modifier="Provun" title="$:/config/Toolbar/Text">
 <pre>no</pre>
 </div>
 <div created="20201228034411800" creator="Provun" modified="20201229235825760" modifier="Provun" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
@@ -10204,10 +10242,11 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20201228033715952" creator="Provun" modified="20201228033729761" modifier="Provun" title="$:/DefaultTiddlers">
-<pre>Gaia
+<div created="20201228033715952" creator="Provun" modified="20210112185019520" modifier="Provun" title="$:/DefaultTiddlers">
+<pre>[[Play History]]
+Gaia
 Desolation
-Races</pre>
+Race</pre>
 </div>
 <div created="20201228033207436" modified="20201228033207718" title="$:/GitHub/Branch">
 <pre>main</pre>
@@ -10221,7 +10260,7 @@ Races</pre>
 <div created="20201228033157335" modified="20201228033204286" title="$:/GitHub/Repo">
 <pre>warrook/roommate-dnd</pre>
 </div>
-<div created="20201228033441147" creator="Provun" modified="20210103194215301" modifier="Provun" title="$:/GitHub/Username">
+<div created="20201228033441147" creator="Provun" modified="20210112185255396" modifier="Provun" title="$:/GitHub/Username">
 <pre>warrook</pre>
 </div>
 <div title="$:/isEncrypted">
@@ -10230,8 +10269,8 @@ Races</pre>
 <div created="20201228034451566" creator="Provun" modified="20201228034451566" modifier="Provun" title="$:/layout">
 <pre>$:/core/ui/PageTemplate</pre>
 </div>
-<div created="20201227164132574" modified="20201227164138842" title="$:/palette">
-<pre>$:/palettes/SolarizedDark</pre>
+<div created="20201227164132574" creator="Provun" modified="20210112080318909" modifier="Provun" title="$:/palette">
+<pre>$:/palettes/Custom</pre>
 </div>
 <div created="20201230005930590" creator="Provun" description="Precision dark colors for machines and people" license="MIT, Ethan Schoonover, https://github.com/altercation/solarized/blob/master/LICENSE" modified="20201230005937699" modifier="Provun" name="SolarizedDark" tags="$:/tags/Palette" title="$:/palettes/Custom" type="application/x-tiddler-dictionary">
 <pre>alert-background: #073642
@@ -10341,16 +10380,25 @@ untagged-background: #586e75
 very-muted-foreground: #586e75
 </pre>
 </div>
-<div created="20201228033644701" modified="20201228033649531" title="$:/SiteSubtitle">
-<pre>a wiki for all the things</pre>
+<div created="20201228033644701" creator="Provun" modified="20210112080846797" modifier="Provun" title="$:/SiteSubtitle">
+<pre>pretend you live in a fantasy world</pre>
 </div>
 <div created="20201228033555586" modified="20201228033641288" title="$:/SiteTitle">
 <pre>Roommate D&amp;D</pre>
 </div>
-<div created="20201228194152319" creator="Provun" modified="20201228194214131" modifier="Provun" title="$:/state/advancedsearch/currentTab">
-<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+<div created="20201228194152319" creator="Provun" modified="20210112183033701" modifier="Provun" title="$:/state/advancedsearch/currentTab">
+<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
+</div>
+<div created="20210112062058915" creator="Provun" modified="20210112062058915" modifier="Provun" title="$:/state/edit/references--1555482013">
+<pre>show</pre>
+</div>
+<div created="20210112081243130" creator="Provun" modified="20210112081243130" modifier="Provun" title="$:/state/edit/references-993057009">
+<pre>show</pre>
 </div>
 <div created="20210101235629005" creator="Provun" modified="20210101235630533" modifier="Provun" title="$:/state/Excise/--383396827/tagnew">
+<pre>yes</pre>
+</div>
+<div created="20210112062205414" creator="Provun" modified="20210112062205414" modifier="Provun" title="$:/state/Excise/-1833592066/tagnew">
 <pre>yes</pre>
 </div>
 <div created="20201229233322168" creator="Provun" modified="20201229234238321" modifier="Provun" title="$:/state/folded/$:/AdvancedSearch">
@@ -10362,26 +10410,26 @@ very-muted-foreground: #586e75
 <div created="20201228034546767" creator="Provun" modified="20201228034614311" modifier="Provun" title="$:/state/folded/Gaia">
 <pre>show</pre>
 </div>
-<div created="20201230010013661" creator="Provun" modified="20201230010015496" modifier="Provun" title="$:/state/palettemanager/showexternal">
+<div created="20201230010013661" creator="Provun" modified="20210112080449545" modifier="Provun" title="$:/state/palettemanager/showexternal">
 <pre>no</pre>
 </div>
 <div created="20201228194201177" creator="Provun" modified="20201228194202840" modifier="Provun" title="$:/state/plugin-info-334910430-$:/core---1812962263">
 <pre>readme</pre>
 </div>
-<div created="20201227183039020" creator="Provun" modified="20210101232523414" modifier="Provun" title="$:/state/showeditpreview">
+<div created="20201227183039020" creator="Provun" modified="20210112184309176" modifier="Provun" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20201230005927444" creator="Provun" modified="20201230005927444" modifier="Provun" title="$:/state/ShowPaletteEditor">
+<div created="20201230005927444" creator="Provun" modified="20210112080352331" modifier="Provun" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20201228193948672" creator="Provun" modified="20201228194214131" modifier="Provun" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+<div created="20201228193948672" creator="Provun" modified="20210112183033701" modifier="Provun" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
 </div>
-<div created="20201227164123164" creator="Provun" modified="20201230010005660" modifier="Provun" title="$:/state/tab--1963855381">
+<div created="20201227164123164" creator="Provun" modified="20210112080340260" modifier="Provun" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20201228033755862" creator="Provun" modified="20201228193424873" modifier="Provun" title="$:/state/tab--2112689675">
-<pre>$:/core/ui/ControlPanel/Basics</pre>
+<div created="20201228033755862" creator="Provun" modified="20210112080851622" modifier="Provun" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
 <div created="20201228033923571" creator="Provun" modified="20201228033923571" modifier="Provun" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Themes</pre>
@@ -10389,13 +10437,16 @@ very-muted-foreground: #586e75
 <div created="20201228193147282" creator="Provun" modified="20201228193202429" modifier="Provun" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/TiddlerFields</pre>
 </div>
-<div created="20201227164120887" creator="Provun" modified="20201230234431759" modifier="Provun" title="$:/state/tab-1749438307">
+<div created="20201227164120887" creator="Provun" modified="20210112183619383" modifier="Provun" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20201228032708203" creator="Provun" modified="20201228200321786" modifier="Provun" title="$:/state/tab-2065006209">
+<div created="20201228032708203" creator="Provun" modified="20210112183627991" modifier="Provun" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20201227164216254" creator="Provun" modified="20210101231106536" modifier="Provun" title="$:/state/tab/sidebar--595412856">
+<div created="20210112061614253" creator="Provun" modified="20210112084615819" modifier="Provun" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Explorer</pre>
+</div>
+<div created="20201227164216254" creator="Provun" modified="20210112185027545" modifier="Provun" title="$:/state/tab/sidebar--595412856">
 <pre>TableOfContents</pre>
 </div>
 <div created="20201228034753591" creator="Provun" modified="20201229235831728" modifier="Provun" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -10407,8 +10458,11 @@ very-muted-foreground: #586e75
 <div created="20201227173100296" modified="20201227173100296" title="$:/state/toc/TableOfContents-Gaia--118161433">
 <pre>open</pre>
 </div>
-<div created="20201231002719327" creator="Provun" modified="20201231002719327" modifier="Provun" title="$:/state/toc/TableOfContents/Basics-Magic--118161433">
+<div created="20210112062225340" creator="Provun" modified="20210112062225340" modifier="Provun" title="$:/state/toc/TableOfContents/Basics-Deity--118161433">
 <pre>open</pre>
+</div>
+<div created="20201231002719327" creator="Provun" modified="20210112081126728" modifier="Provun" title="$:/state/toc/TableOfContents/Basics-Magic--118161433">
+<pre>close</pre>
 </div>
 <div created="20210101235529294" creator="Provun" modified="20210101235529295" modifier="Provun" title="$:/state/toc/TableOfContents/Gaia-Desolation--118161433">
 <pre>open</pre>
@@ -10416,14 +10470,83 @@ very-muted-foreground: #586e75
 <div created="20210101235637243" creator="Provun" modified="20210101235637243" modifier="Provun" title="$:/state/toc/TableOfContents/Gaia/Desolation-Southeast Desolation--118161433">
 <pre>open</pre>
 </div>
+<div created="20210112084619249" creator="Provun" modified="20210112084619249" modifier="Provun" title="$:/state/tree/$:/tags/">
+<pre>show</pre>
+</div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
 <div created="20201228033652107" creator="w" modified="20201228033706912" modifier="Provu" title="$:/status/UserName">
 <pre>Provun</pre>
 </div>
-<div created="20201228192346183" creator="Provun" list="$:/ControlPanel Tinal Magic Gods Gaia" modified="20210103194207451" modifier="Provun" title="$:/StoryList">
+<div list="Test GettingStarted $:/ControlPanel $:/AdvancedSearch $:/tags/ViewToolbar $:/user/ui/Buttons/publish [[Play History]] Gaia Desolation" title="$:/StoryList">
 <pre></pre>
+</div>
+<div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/info/browser&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser&quot;,
+            &quot;text&quot;: &quot;yes&quot;
+        },
+        &quot;$:/info/node&quot;: {
+            &quot;title&quot;: &quot;$:/info/node&quot;,
+            &quot;text&quot;: &quot;no&quot;
+        },
+        &quot;$:/info/startup-timestamp&quot;: {
+            &quot;title&quot;: &quot;$:/info/startup-timestamp&quot;,
+            &quot;text&quot;: &quot;20210112185009947&quot;
+        },
+        &quot;$:/info/url/full&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/full&quot;,
+            &quot;text&quot;: &quot;file:///D:/Users/rookk/Documents/Dropbox/D&amp;D/Roommates/index.html&quot;
+        },
+        &quot;$:/info/url/host&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/host&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/hostname&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/protocol&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
+            &quot;text&quot;: &quot;file:&quot;
+        },
+        &quot;$:/info/url/port&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/port&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/pathname&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
+            &quot;text&quot;: &quot;/D:/Users/rookk/Documents/Dropbox/D&amp;D/Roommates/index.html&quot;
+        },
+        &quot;$:/info/url/search&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/search&quot;,
+            &quot;text&quot;: &quot;&quot;
+        },
+        &quot;$:/info/url/origin&quot;: {
+            &quot;title&quot;: &quot;$:/info/url/origin&quot;,
+            &quot;text&quot;: &quot;file://&quot;
+        },
+        &quot;$:/info/browser/screen/width&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
+            &quot;text&quot;: &quot;1920&quot;
+        },
+        &quot;$:/info/browser/screen/height&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
+            &quot;text&quot;: &quot;1080&quot;
+        },
+        &quot;$:/info/darkmode&quot;: {
+            &quot;title&quot;: &quot;$:/info/darkmode&quot;,
+            &quot;text&quot;: &quot;yes&quot;
+        },
+        &quot;$:/info/browser/language&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser/language&quot;,
+            &quot;text&quot;: &quot;en-US&quot;
+        }
+    }
+}</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
 <pre>{
@@ -10537,41 +10660,61 @@ very-muted-foreground: #586e75
 <div created="20201227164124876" modified="20201227164124876" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
 </div>
-<div created="20201231000605748" creator="Provun" modified="20201231000705915" modifier="Provun" tags="TableOfContents" title="Basics">
+<div created="20210112053519290" creator="Provun" modified="20210112053519290" modifier="Provun" title="$:/themes/tiddlywiki/vanilla/options/stickytitles">
+<pre>yes</pre>
+</div>
+<div created="20210112184207746" creator="Provun" modified="20210112184237675" modifier="Provun" tags="" title="$:/user/SecretTemplate">
+<pre>\define saveTiddlerFilter()
+[is[tiddler]] -[prefix[$:/state/popup/]] -[[$:/HistoryList]] -[[$:/boot/boot.css]] -[type[application/javascript]library[yes]] -[[$:/boot/boot.js]] -[[$:/boot/bootprefix.js]] -[tag[Secret]] +[sort[title]]
+\end
+{{$:/core/templates/tiddlywiki5.html}}</pre>
+</div>
+<div created="20210112084311057" creator="Provun" modified="20210112185248194" modifier="Provun" tags="$:/tags/PageControls" title="$:/user/ui/Buttons/publish">
+<pre>&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;
+&lt;$action-setfield $tiddler=&quot;$:/GitHub/Username&quot; text=&quot;warrook&quot;/&gt;
+&lt;$action-sendmessage $message=&quot;tm-save-wiki&quot; $param=&quot;$:/user/SecretTemplate&quot; filename=&quot;index.html&quot;/&gt;
+&lt;$action-setfield $tiddler=&quot;$:/GitHub/Username&quot; text=&quot;&quot;/&gt;
+{{$:/core/images/github}}
+&lt;/$button&gt;</pre>
+</div>
+<div created="20210112063610474" creator="Provun" modified="20210112081603596" modifier="Provun" tags="" title="Accomplishments">
+<pre>| !Date &lt;br /&gt;([[D-M-Y|Calendar]]) | !Event |
+| 13-15-1113 |The party returns to [[Pharos]] with a golden orchid, from the Haplic Forest in [[Southeast Desolation]] near [[Tinal]].|
+| 17-15-1113 |A new [[Blight Grove]] in the Overflow in [[Desolation]] is planted. [[Grit]], a blight, joins the party. He is not particularly talkative.|</pre>
+</div>
+<div created="20201231000605748" creator="Provun" list="Race Deity Magic" modified="20210112081246987" modifier="Provun" tags="TableOfContents" title="Basics">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 
 &lt;&lt;toc-selective-expandable 'Basics'&gt;&gt;
 
 &lt;/div&gt;</pre>
 </div>
-<div created="20210101230804766" creator="Provun" modified="20210101235326394" modifier="Provun" title="Calendar">
-<pre>Years are cut up into 18 months of 20 days each, with seven day long weeks. The end of the year includes an extra week of &quot;dark days,&quot; called so because they're superstitiously a period of bad luck. So, a year is 367 days long. This method of yearkeeping is referred to as the 'sun's time,' and is only one of the calendars used on Gaia. Unfortunately, due to Gaia's general lack of cohesion or centralization, there are as many calendars as there are isolated regions. Calendars travel with trade, so any outside of trade range don't get it.
+<div created="20210101230804766" creator="Provun" modified="20210112073155676" modifier="Provun" title="Calendar">
+<pre>Years are cut up into 16 months of 22 or 23 days each, with seven day long weeks. The end of the year includes an extra week of &quot;dark days,&quot; called so because they're superstitiously a period of bad luck. So, a year is 367 days long. This method of yearkeeping is referred to as the 'sun's time,' and is only one of the calendars used on Gaia. Unfortunately, due to Gaia's general lack of cohesion or centralization, there are as many calendars as there are isolated regions. Calendars travel with trade, so any outside of trade range don't get it.
 
 The Sun's Time begins on the day of the vernal equinox. The months are as follows:
 
 |! |!Month|!Earth Equivalent|
-| !1| Aris |March 20 ~ April 8 |
-| !2| Ram |April 9 ~ 28 |
-| !3| Tarus |April 29 ~ May 18 |
-| !4| Jemi |May 19 ~ June 7 |
-| !5| Ni |June 8 ~ 27 |
-| !6| Kants |June 28 ~ July 17 |
-| !7| Li |July 18 ~ August 6 |
-| !8| Ios |August 7 ~ 26 |
-| !9| Vorga |August 27 ~ September 15 |
-| !10| Leb |September 16 ~ October 5 |
-| !11| Ara |October 6 ~ 25 |
-| !12| Skarpi |October 26 ~ November 14 |
-| !13| Sajita |November 15 ~ December 4 |
-| !14| Rius |December 5 ~ 24 |
-| !15| Kaprik |December 25 ~ January 13 |
-| !16| Akwar |January 14 ~ February 2 |
-| !17| Areus |February 3 ~ 22 |
-| !18| Peis |February 23 ~ March 14 |
+| !1| Aris |March 20 ~ April 10 |
+| !2| Estar |April 11 ~ May 03 |
+| !3| Auras |May 04 ~ 25 |
+| !4| Jemi |May 26 ~ June 17 |
+| !5| Kants |June 18 ~ July 09 |
+| !6| Serlo |July 10 ~ August 01 |
+| !7| Ios |August 02 ~ 23 |
+| !8| Vorga |August 24 ~ September 15 |
+| !9| Leb |September 16 ~ October 07 |
+| !10| Arask |October 08 ~ 30 |
+| !11| Skarpi |October 31 ~ November 21 |
+| !12| Sajita |November 22 ~ December 14 |
+| !13| Riuska |December 15 ~ January 05 |
+| !14| Aprik |January 06 ~ 28 |
+| !15| Akwars |January 29 ~ February 19 |
+| !16| Peis |February 20 ~ March 14 |
 | !--| Atukhos |//March 15 ~ 21//^^1^^ |
 ^^1 - Atukhos is an intercalary period at the end of the year. Its length is as many days as it takes to get from the end of Peis to make the vernal equinox on the first of Aris.^^</pre>
 </div>
-<div created="20201227182542273" modified="20201227193542992" title="Changelings">
+<div created="20201227182542273" creator="Provun" modified="20210109220933687" modifier="Provun" tags="Benji" title="Changelings">
 <pre>''Changelings'' are a very unusual, alien race. They are capable of shapeshifting into any other race, but that's not the first thing that makes them strange. They come from [[Detenal]], a dark star barely visible from [[Gaia]], but they believe themselves to have only moved to Detenal from somewhere else, and there are entire sects of belief devoted to this question.
 
 Regardless of their origin, they can be found on Gaia as well thanks to strange and abstract passageways between worlds. Changelings are extremely secretive about these ephemeral passages, and only they can travel through them -- so they claim, anyway. At any rate, nothing from Detenal has been witnessed using one of these '[[Tindalos|https://en.wikipedia.org/wiki/Hounds_of_Tindalos]] doorways' to reach Gaia.
@@ -10603,6 +10746,25 @@ Changelings are not very religious, with the sole exception of ancestor worship.
 
 Surely.</pre>
 </div>
+<div created="20201231000842416" creator="Provun" list="God" modified="20210112080950075" modifier="Provun" tags="Basics" title="Deity">
+<pre>The people of [[Gaia]] don't believe in many gods -- instead, they //know// may gods exist. To be atheist is to believe that the gods didn't create life, don't have a hand in day-to-day life, or that they're simply powerful beings. Agnosticism is that it doesn't really matter one way or the other. True religions are gathered around single gods or a group of gods as superior or more relevant than the rest.
+
+A [[firekeeper|Firekeeper]] is capable of reading manifestations of divine power to reach the root truth of it -- that is, its origin. This can be difficult, especially if the god wishes to remain anonymous, but broadly speaking firekeepers are able to see the hands of gods in some detail -- that is, they are able to know which god does what. The gods themselves are mixed about this practice; most of them seem to want mortals to believe there are a great number of gods, possibly for faith-related reasons. As in, if the persona of a god in one area is reviled, if they go by a new name elsewhere and replace the old persona in that region, then faith is not lost for long. If they need faith at all, of course.
+
+!!! Beloved
+Beloved are mortals chosen by one of the gods to act on their behalf. A Beloved usually has some sign or mark indicating them as such, and this sign need not be present from birth -- but some are. It is believed that the Beloved exist because the gods have difficulty working in the mortal world except through them.
+
+! The Original Trio
+It is said that in the beginning, there were three gods. These are [[Atukhos]], god of disaster, [[Sempor|Sempor (deity)]], god of mortals, and [[Nal]], god of mercy. Originally, these three worked together and were possibly even the same being depending on the myth, but they divided into three separate individuals.
+
+No other gods are related to the trio, and depending on the regional belief, the trio aren't usually related to each other either. The most common myth which surrounds [[Desolation]] says that mortals, lost and alone and confused, offered prayers to the sky and in so doing created the three original gods themselves. They lived among mortals for generations, sitting upon their thrones and guiding mortality.
+
+One day, the gods disagreed for the first time. This disagreement was minor, barely worth noting, but it was the only time they had ever disagreed. After that, disagreement happened more and more often, until the gods eventually refused to agree with one another. They separated, splitting mortality in three. Eventually, they came to fight each other -- with great violence and death. The gods saw what their mortals had done in the name of the divine, and decided to leave. As a metaphor of leaving a guiding light, Sempor placed a shining star in the sky, which mortals named after him ([[Sempor|Sempor (planet)]]). Then, the gods were gone, their thrones left empty.
+
+
+! List of Deities
+{{List of Deities}}</pre>
+</div>
 <div created="20201227173211598" creator="Provun" modified="20210101235715330" modifier="Provun" tags="Gaia" title="Desolation">
 <pre>''Desolation'' is an urban seemingly endless to the people that live near it. The majority of known civilization lives to the southeast, mostly outside of the urban but some intrepid settlers live within too.
 
@@ -10618,13 +10780,13 @@ Much of urban geography is unmapped at best, completely unknown at worst. Areas 
 !! Southeast
 {{Southeast Desolation}}</pre>
 </div>
-<div created="20210101225019695" creator="Provun" modified="20210101230027279" modifier="Provun" tags="Magic" title="Firekeeper">
+<div created="20210101225019695" creator="Provun" modified="20210112063252607" modifier="Provun" tags="Magic" title="Firekeeper">
 <pre>''Firekeepers'' are figures found in most towns. They are responsible for maintaining fires nominally, but also help the people of their home. Some of those folk seem to have some amount of power or sensitivity though, usually in the form of strange and perhaps prophetic dreams.
 
-Those who seek to hone or enhance their abilities ingest strange potions and pray to unheard-of forces. Firekeepers who are successful have the unique power to 'witness' odd forces; that is, they can analyze them deeply. They can look at an ancient artifact and, with time, determine its function, sometimes even its history. Firekeepers are capable of identifying even the differences between [[gods|Gods]] and their magics.</pre>
+Those who seek to hone or enhance their abilities ingest strange potions and pray to unheard-of forces. Firekeepers who are successful have the unique power to 'witness' odd forces; that is, they can analyze them deeply. They can look at an ancient artifact and, with time, determine its function, sometimes even its history. Firekeepers are capable of identifying even the differences between [[gods|Deity]] and their magics. These abilities are not believed to be magical, as a firekeeper needs no [[Godsbrand]] to do them.</pre>
 </div>
-<div created="20201227164204258" creator="Provun" modified="20210101231042584" modifier="Provun" tags="TableOfContents" title="Gaia">
-<pre>''Gaia'' is a mostly average Earthlike planet. It is home to many different races of people magical and mundane. The general development of the world is on the level of spears, swords, and magic, but it was once much more. [[Urbans]] are thought by many to have been built or even 'grown' by divine forces, but others believe the truth of the matter is that the world was formerly capable of building such enormous cities. As for what disaster led to the enormous loss of ability and technology, no one can be certain. There is no living memory of what event, if any, caused the collapse, and no records of one -- if found -- have ever been made public. Today, the planet is very much like Earth in terms of climate (It is //not ////Earth//, this isn't one of those games).
+<div created="20201227164204258" creator="Provun" modified="20210112081305046" modifier="Provun" tags="TableOfContents" title="Gaia">
+<pre>''Gaia'' is a mostly average Earthlike planet. It is home to many different races of people magical and mundane. The general development of the world is on the level of spears, swords, and magic, but it was once much more. [[Urbans|Urban]] are thought by many to have been built or even 'grown' by divine forces, but others believe the truth of the matter is that the world was formerly capable of building such enormous cities. As for what disaster led to the enormous loss of ability and technology, no one can be certain. There is no living memory of what event, if any, caused the collapse, and no records of one -- if found -- have ever been made public. Today, the planet is very much like Earth in terms of climate (It is //not ////Earth//, this isn't one of those games).
 
 ! Geography
 Like Earth, Gaia has wildly diverse (but still generally habitable) geography and climate. There are stories told by travelers of horrible lands where fire falls from the sky or the sun refuses to rise, but those are probably just stories.
@@ -10634,7 +10796,7 @@ The people of Gaia are generally only familiar with one urban, if any at all, be
 ! Intelligent Life
 
 &lt;&lt;&lt;
-See also: [[Races]]
+See also: [[Race]]
 &lt;&lt;&lt;
 
 The planet is riven with intelligent beings, and there is (nearly) no racial bias or localization of any kind. &quot;Racial capital cities&quot; are so rare as to be very odd at best, and outright evil at worst, in the minds of others. The most populous of all races are humans and human-adjacent races -- specifically, elves, dwarves, shifters, and so on. But, even with that, non-human races may be regarded with a brief flicker of shock if they haven't been seen before, but then with comfortable, if vague, familiarity. There are all sorts of people in the world, and the world is vast -- so of course there are people they haven't seen before.
@@ -10642,20 +10804,13 @@ The planet is riven with intelligent beings, and there is (nearly) no racial bia
 ! Celestial Objects
 Gaia has view of a number of things that move in the night sky. There are two moons: Stron, a shiny blue moon, and Mymag, a white one. Mymag is speckled some by irregular dark splotches, while Stron is //very// reflective. A 'large star' called the Racer runs along the Starry Track (think the Milky Way as seen from Earth) every hour and a half or so.
 
-There are a few other wandering stars, to use the ancient term for planets moving in the night sky. In no particular order, these are: [[Prizmacor]], a speedy star; [[Hirala]], a somewhat slow golden star; [[Wisodest]], the twinkling multicolored star that moves the fastest; [[Detenal]], a barely visible, slow moving star; [[Sempor]], the brightest; and [[Otiy]], the second brightest. [[The Racer]] is brightest of all wandering stars, but it is not usually included in a list of them as its movements don't seem to change over the course of a year like the others do.
+There are a few other wandering stars, to use the ancient term for planets moving in the night sky. In no particular order, these are: [[Prizmacor]], a speedy star; [[Hirala]], a somewhat slow golden star; [[Wisodest]], the twinkling multicolored star that moves the fastest; [[Detenal]], a barely visible, slow moving star; [[Sempor (planet)]], the brightest; and [[Otiy]], the second brightest. [[The Racer]] is brightest of all wandering stars, but it is not usually included in a list of them as its movements don't seem to change over the course of a year like the others do.
 
 !! Calendar
 {{Calendar}}</pre>
 </div>
-<div created="20201231000842416" creator="Provun" modified="20210103194045722" modifier="Provun" tags="Basics TODO" title="Gods">
-<pre>The people of [[Gaia]] don't believe in many gods -- instead, they //know// many gods exist. The position of atheism is not that gods don't exist, it's that the gods didn't create life or don't have a hand in day to day life. Another potential lens of atheism is that the gods are not gods, they're only superpowerful beings. Agnosticism is that it doesn't really matter one way or the other. True religions are gathered around single gods or group of gods as higher than the rest, or that they ought to be.
-
-The number of gods is, in actuality, quite limited. The way this is obfuscated to the common person is gods going by different names and forms according to different regions or peoples. [[Firekeepers|Firekeeper]] are able to determine true identities of gods through a process not entirely unlike genetic testing -- look at the 'signature' of magic performed by two different clerics of two different gods, and see just how different their gods really are. Gods are mixed about this practice; most of them seem to want mortals to believe there are a great number of gods, for reasons they don't divulge.
-
-TODO: List of gods</pre>
-</div>
-<div created="20201230211011377" creator="Provun" modified="20201231002717770" modifier="Provun" tags="Magic" title="Godsbrand">
-<pre>A ''godsbrand'' is a unique, ancient artifact worn hanging over one ear, named after a birthmark of the same shape and position found on those of sorcerous bloodlines. Those with the birthmark were considered blessed by [[the gods|Gods]] and endowed with magical power, hence the name. Those branded are the only ones with innate power, but wearing one of the godsbrand artifacts is enough for most.
+<div created="20201230211011377" creator="Provun" modified="20210112062125422" modifier="Provun" tags="Magic" title="Godsbrand">
+<pre>A ''godsbrand'' is a unique, ancient artifact worn hanging over one ear, named after a birthmark of the same shape and position found on those of sorcerous bloodlines. Those with the birthmark were considered blessed by [[the gods|Deity]] and endowed with magical power, hence the name. Those branded are the only ones with innate power, but wearing one of the godsbrand artifacts is enough for most.
 
 ! Appearance
 The birthmark is usually dark in color, either black or a vibrant red, and it is usually a hook-like mark positioned behind the left ear, following where the ear joins the head. The artifact is a somewhat flexible hook-shaped ear piece, and can be worn on either ear. The shape of the artifact alters itself to accommodate any sort of ear shape, in precisely the same shape the birthmark appears on sorcerers of that race. The artifact can't be removed except by the wearer, and even then they seem particularly //sticky// -- the owner of a godsbrand cannot lose it, under any nonmagical circumstances. If they think they lost it, they will reach into a pocket and find it as if it was always there.
@@ -10670,10 +10825,26 @@ Godsbrands allow the bearer to connect with magical forces at simply a thought, 
 
 Some bearers claim there are other functions common to all godsbrands, but these seem either non-universal or at least not obviously used. A few of the purported functions are: talking at long distance with another bearer, adding large numbers together, translating unknown languages, and more. Reproducing these abilities is difficult; all of the strange capabilities have only ever happened in times of urgent need -- that is, if they happened at all and aren't simply made up.</pre>
 </div>
+<div created="20210112062213939" creator="Provun" modified="20210112062213939" modifier="Provun" tags="Deity" title="List of Deities">
+<pre>A loose conclave of firekeepers has been working on a catalog of the gods in their true identities. Progress on that front is slow. In the meantime, here is a list of the gods according to how they are worshiped.
+
+* [[Atukhos]], god of disaster. Also called ''the One that Breaks''. He (or, as //Atakh// among people of the west, she) does not speak much, and is not usually worshiped unless for the purposes of //avoiding// disaster. Beloved of Atukhos that are born with his mark are, in many places, abandoned or outright killed soon after birth.
+* [[Sempor (deity)]], god of mortals. Also called ''the One that Binds''. He is said to be the patron of all mortality, who loves mortality the most of all gods.
+* [[Nal]], god of mercy. Also called ''the One that Builds''. He (frequently she), is considered a kind soul, responsible for all acts of mercy among mortals. [[Magic]] is sometimes considered a sign of Nal's mercy, her gift to mortality when she and the others of the original three gods left mortals.
+* ''The Dancing One'', goddess of stories. Her hands, feet, and body are tied with the threads of fate, and she is locked in an eternal dance -- each movement she makes pulls and commands the passage of fate itself.
+* ''Jonir, [[The Racer]]''.</pre>
+</div>
 <div created="20201231002543521" creator="Provun" modified="20201231003202403" modifier="Provun" tags="Basics" title="Magic">
 <pre>Magic is done through use of a [[godsbrand|Godsbrand]]. Its use is extremely varied, and seems to be capable of doing just about anything. Druids, who can shapeshift into animals, coexist with bards who weave magic out of music and warlocks who channel the will of higher beings.</pre>
 </div>
-<div created="20201227172405614" creator="Provun" modified="20201231000628239" modifier="Provun" tags="Basics" title="Races">
+<div created="20210112075426821" creator="Provun" modified="20210112075822595" modifier="Provun" tags="TableOfContents" title="Play History">
+<pre>!! [[Accomplishments]]
+{{Accomplishments}}
+
+!! [[Threads]]
+{{Threads}}</pre>
+</div>
+<div created="20201227172405614" creator="Provun" modified="20210112081246986" modifier="Provun" tags="Basics" title="Race">
 <pre>Some say there are as many shapes of living thing on Gaia as there are leaves on a tree. They never specify which kind of tree, and though they probably don't realize it there's a good reason -- no one knows how many races there are.
 
 Human and human-like races are the most populous, generally speaking. This includes humans, elves, dwarves, gnomes, halflings, shifters, tieflings, and aasimar. Other human-like races, such as goliaths or firbolgs, are not as common. Other races like tabaxi, grungs, or changelings are far less common, though that depends on the region.
@@ -10691,7 +10862,7 @@ Shifter culture is not significantly different from human culture, owing to the 
 
 ! Beastlike
 !! Grung
-The colorful and dangerous grungs are usually found in damp places of the world, since they require some amount of topical hydration to survive. As a consequence, grungs can often be found in [[urbans||Urbans]] since water of some sort can be found easily no matter the urban and the verticality of the region is of no concern to their sticky hands and feet. It is somewhat rare for a grung to travel far and wide, since their biology usually precludes this. Travel for a grung is usually done in a group, with one bearing a godsbrand and blessed with the ability to create water, given to them by the grung deity Ango'r. Ango'r is mostly benevolent, but those who hear his voice seem to lose it, just a bit.
+The colorful and dangerous grungs are usually found in damp places of the world, since they require some amount of topical hydration to survive. As a consequence, grungs can often be found in [[urbans|Urban]] since water of some sort can be found easily no matter the urban and the verticality of the region is of no concern to their sticky hands and feet. It is somewhat rare for a grung to travel far and wide, since their biology usually precludes this. Travel for a grung is usually done in a group, with one bearing a godsbrand and blessed with the ability to create water, given to them by the grung deity Ango'r. Ango'r is mostly benevolent, but those who hear his voice seem to lose it, just a bit.
 
 While most races live around and among one another, biology demands that grungs live separate. They need to bathe in water regularly, which is at odds with some peoples' hygiene habits, and they produce toxic slime on their skin that is generally harmful to most forms of animal life. It is rare for a grung group to be seen outside their dwellings, and it's unheard of to see a grung traveling solo. Most people have barely even heard of grungs, let alone seen one.
 
@@ -10729,12 +10900,16 @@ West of the fields, north of Great River, is ''Spiders''.
 * [[Sprout]], a town along the Red River that becomes Great River. It takes its name from the organic way the town has grown 'sprouting up' from a small seed of settlers that left Kindred a few decades ago. A resident of Sprout lives a few days away from town in a place called Oracle's Abode, after that resident's...unique abilities.
 * [[Willowmound]] is a swampy town on the Ghostly Stream that runs from the Black Mountains down through the Shadowlands to join Great River. Life in Willowmound is wet, dark, and cold. Only a small trail runs between it and anywhere noteworthy.</pre>
 </div>
-<div caption="Contents" created="20201227172935628" list-after="$:/core/ui/SideBar/Open" modified="20201227173030896" tags="$:/tags/SideBar" title="TableOfContents">
+<div caption="Contents" created="20201227172935628" creator="Provun" list="[[Play History]]" list-after="$:/core/ui/SideBar/Open" modified="20210112084244203" modifier="Provun" tags="$:/tags/SideBar" title="TableOfContents">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 
 &lt;&lt;toc-selective-expandable 'TableOfContents'&gt;&gt;
 
 &lt;/div&gt;</pre>
+</div>
+<div created="20210112075836232" creator="Provun" modified="20210112080159485" modifier="Provun" title="Threads">
+<pre>| !Date &lt;br /&gt;([[D-M-V|Calendar]]) | !Kind | !Thread |
+| -- | -- | -- |</pre>
 </div>
 <div created="20210101230050527" creator="Provun" modified="20210101235553230" modifier="Provun" tags="[[Southeast Desolation]]" title="Tinal">
 <pre>''Tinal'' (pronounced //TIE-null//) is a mid-sized village standing at the join of Great River with the Haplic River, southeast of [[Desolation]]. Tinal is strange to its neighbors for revering no gods, instead worshiping the earth itself as an animist force. Desolation is in some way their devil, treated as a living thing with a will just as they do the world.
