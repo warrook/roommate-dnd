@@ -191,11 +191,15 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/language/Docs/PaletteColours/tiddler-link-foreground-hover</li>
+
 <li>$:/layout</li>
 
 <li>$:/palette</li>
 
 <li>$:/palettes/Custom</li>
+
+<li>$:/palettes/Custom2</li>
 
 <li>$:/SiteSubtitle</li>
 
@@ -219,9 +223,33 @@ Error message and password prompt
 
 <li>$:/state/folded/$:/ControlPanel</li>
 
+<li>$:/state/folded/$:/themes/tiddlywiki/vanilla/base</li>
+
 <li>$:/state/folded/Changeling</li>
 
 <li>$:/state/folded/Gaia</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/alert-background</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/blockquote-bar</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/dragger-background</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/dragger-foreground</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/notification-background</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/notification-border</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/tiddler-info-background</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/tiddler-info-border</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/tiddler-link-hover</li>
+
+<li>$:/state/palettemanager/$:/palettes/Custom2/very-muted-foreground</li>
+
+<li>$:/state/palettemanager/$:/palettes/SpartanNight/alert-background</li>
 
 <li>$:/state/palettemanager/showexternal</li>
 
@@ -250,6 +278,8 @@ Error message and password prompt
 <li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
+
+<li>$:/state/toc/TableOfContents-Adventures--118161433</li>
 
 <li>$:/state/toc/TableOfContents-Basics--118161433</li>
 
@@ -281,6 +311,8 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>$:/themes/tiddlywiki/vanilla/base</li>
+
 <li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
 
 <li>$:/themes/tiddlywiki/vanilla/options/stickytitles</li>
@@ -290,8 +322,6 @@ Error message and password prompt
 <li>$:/user/SecretTemplate</li>
 
 <li>$:/user/spoiler-style</li>
-
-<li>$:/user/ui/Buttons/publish</li>
 
 <li>Accomplishments</li>
 
@@ -305,6 +335,10 @@ Error message and password prompt
 
 <li>Desolation</li>
 
+<li>Draft of '$:/palettes/SpartanNight 1' by Provun</li>
+
+<li>Draft of 'New Tiddler 1' by Provun</li>
+
 <li>Firekeeper</li>
 
 <li>Gaia</li>
@@ -312,6 +346,8 @@ Error message and password prompt
 <li>Godsbrand</li>
 
 <li>Grung</li>
+
+<li>Kindred</li>
 
 <li>List of Deities</li>
 
@@ -10280,61 +10316,64 @@ Desolation</pre>
 <div created="20201228033157335" modified="20201228033204286" title="$:/GitHub/Repo">
 <pre>warrook/roommate-dnd</pre>
 </div>
-<div created="20201228033441147" creator="Provun" modified="20210113023100714" modifier="Provun" title="$:/GitHub/Username">
+<div created="20201228033441147" creator="Provun" modified="20210115185534248" modifier="Provun" title="$:/GitHub/Username">
 <pre>warrook</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<div created="20210115181144368" creator="Provun" modified="20210115181225292" modifier="Provun" tags="" title="$:/language/Docs/PaletteColours/tiddler-link-foreground-hover">
+<pre>Tiddler link foreground hover</pre>
+</div>
 <div created="20201228034451566" creator="Provun" modified="20201228034451566" modifier="Provun" title="$:/layout">
 <pre>$:/core/ui/PageTemplate</pre>
 </div>
-<div created="20201227164132574" creator="Provun" modified="20210112224526442" modifier="Provun" title="$:/palette">
-<pre>$:/palettes/Custom</pre>
+<div created="20201227164132574" creator="Provun" modified="20210115182119756" modifier="Provun" title="$:/palette">
+<pre>$:/palettes/Custom2</pre>
 </div>
-<div created="20201230005930590" creator="Provun" description="Precision dark colors for machines and people" license="MIT, Ethan Schoonover, https://github.com/altercation/solarized/blob/master/LICENSE" modified="20201230005937699" modifier="Provun" name="SolarizedDark" tags="$:/tags/Palette" title="$:/palettes/Custom" type="application/x-tiddler-dictionary">
-<pre>alert-background: #073642
+<div created="20201230005930590" creator="Provun" description="Precision dark colors for machines and people" license="MIT, Ethan Schoonover, https://github.com/altercation/solarized/blob/master/LICENSE" modified="20210115182108129" modifier="Provun" name="SolarizedDark" tags="$:/tags/Palette" title="$:/palettes/Custom" type="application/x-tiddler-dictionary">
+<pre>alert-background: &lt;&lt;colour background&gt;&gt;
 alert-border: #93a1a1
-alert-highlight: #d33682
-alert-muted-foreground: #d33682
-background: #073642
-blockquote-bar: #d33682
-button-background: #073642
-button-border: #586e75
+alert-highlight: &lt;&lt;colour site-title-foreground&gt;&gt;
+alert-muted-foreground: &lt;&lt;colour site-title-foreground&gt;&gt;
+background: #25283D
+blockquote-bar: &lt;&lt;colour site-title-foreground&gt;&gt;
+button-background: &lt;&lt;colour background&gt;&gt;
+button-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
 button-foreground: #93a1a1
-code-background: #073642
-code-border: #586e75
+code-background: &lt;&lt;colour background&gt;&gt;
+code-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
 code-foreground: #93a1a1
 dirty-indicator: inherit
 download-background: #859900
-download-foreground: #073642
-dragger-background: #073642
+download-foreground: &lt;&lt;colour background&gt;&gt;
+dragger-background: &lt;&lt;colour background&gt;&gt;
 dragger-foreground: #839496
-dropdown-background: #073642
+dropdown-background: &lt;&lt;colour background&gt;&gt;
 dropdown-border: #93a1a1
 dropdown-tab-background: #002b36
-dropdown-tab-background-selected: #073642
+dropdown-tab-background-selected: &lt;&lt;colour background&gt;&gt;
 dropzone-background: #859900
 external-link-background: inherit
 external-link-background-hover: inherit
 external-link-background-visited: inherit
 external-link-foreground: #268bd2
-external-link-foreground-hover:
+external-link-foreground-hover: 
 external-link-foreground-visited: #268bd2
 foreground: #839496
 message-background: #002b36
-message-border: #586e75
+message-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
 message-foreground: #839496
 modal-backdrop: #657b83
 modal-background: #002b36
-modal-border: #586e75
-modal-footer-background: #073642
-modal-footer-border: #586e75
-modal-header-border: #586e75
+modal-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+modal-footer-background: &lt;&lt;colour background&gt;&gt;
+modal-footer-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+modal-header-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
 muted-foreground: #93a1a1
 notification-background: #002b36
-notification-border: #586e75
-page-background: #073642
+notification-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+page-background: &lt;&lt;colour background&gt;&gt;
 pre-background: inherit
 pre-border: #657b83
 primary: #859900
@@ -10348,35 +10387,35 @@ sidebar-foreground-shadow: transparent
 sidebar-muted-foreground: #839496
 sidebar-muted-foreground-hover: #93a1a1
 sidebar-tab-background: #002b36
-sidebar-tab-background-selected: #073642
-sidebar-tab-border: #073642
+sidebar-tab-background-selected: &lt;&lt;colour background&gt;&gt;
+sidebar-tab-border: &lt;&lt;colour background&gt;&gt;
 sidebar-tab-border-selected: #839496
 sidebar-tab-divider: #002b36
 sidebar-tab-foreground: #657b83
 sidebar-tab-foreground-selected: #93a1a1
 sidebar-tiddler-link-foreground: #2aa198
 sidebar-tiddler-link-foreground-hover: #eee8d5
-site-title-foreground: #d33682
+site-title-foreground: #cea2ac
 static-alert-foreground: #93a1a1
-tab-background: #073642
+tab-background: &lt;&lt;colour background&gt;&gt;
 tab-background-selected: #002b36
-tab-border: #586e75
+tab-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
 tab-border-selected: #93a1a1
 tab-divider: #93a1a1
 tab-foreground: #839496
 tab-foreground-selected: #93a1a1
-table-border: #586e75
-table-footer-background: #073642
-table-header-background: #073642
+table-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+table-footer-background: &lt;&lt;colour background&gt;&gt;
+table-header-background: &lt;&lt;colour background&gt;&gt;
 tag-background: #b58900
 tag-foreground: #002b36
 tiddler-background: #002b36
-tiddler-border: #586e75
+tiddler-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
 tiddler-controls-foreground: inherit
-tiddler-controls-foreground-hover: #d33682
+tiddler-controls-foreground-hover: &lt;&lt;colour site-title-foreground&gt;&gt;
 tiddler-controls-foreground-selected: #2aa198
 tiddler-editor-background: #002b36
-tiddler-editor-border: #073642
+tiddler-editor-border: &lt;&lt;colour background&gt;&gt;
 tiddler-editor-border-image: #002b36
 tiddler-editor-fields-even: #002b36
 tiddler-editor-fields-odd: #073642
@@ -10386,7 +10425,7 @@ tiddler-info-tab-background: #002b36
 tiddler-link-background: #002b36
 tiddler-link-foreground: #2aa198
 tiddler-subtitle-foreground: #839496
-tiddler-title-foreground: #d33682
+tiddler-title-foreground: &lt;&lt;colour site-title-foreground&gt;&gt;
 toolbar-cancel-button: #839496
 toolbar-close-button: #839496
 toolbar-delete-button: #dc322f
@@ -10396,9 +10435,116 @@ toolbar-info-button: #839496
 toolbar-new-button: #839496
 toolbar-options-button: #839496
 toolbar-save-button: inherit
-untagged-background: #586e75
-very-muted-foreground: #586e75
-</pre>
+untagged-background: &lt;&lt;colour very-muted-foreground&gt;&gt;
+very-muted-foreground: #543051</pre>
+</div>
+<div created="20210115100739428" creator="Provun" description="Dark spartan colors" modified="20210115185438408" modifier="Provun" name="Spartan Night" tags="$:/tags/Palette" title="$:/palettes/Custom2" type="application/x-tiddler-dictionary">
+<pre>alert-background: &lt;&lt;colour background&gt;&gt;
+alert-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+alert-highlight: &lt;&lt;colour very-muted-foreground&gt;&gt;
+alert-muted-foreground: &lt;&lt;colour muted-foreground&gt;&gt;
+background: #221520
+blockquote-bar: &lt;&lt;colour tiddler-border&gt;&gt;
+button-background: transparent
+button-foreground: inherit
+button-border: &lt;&lt;colour tag-background&gt;&gt;
+code-background: &lt;&lt;colour pre-background&gt;&gt;
+code-border: &lt;&lt;colour pre-border&gt;&gt;
+code-foreground: rgba(255, 255, 255, 0.54)
+dirty-indicator: #c80000
+download-background: &lt;&lt;colour primary&gt;&gt;
+download-foreground: &lt;&lt;colour foreground&gt;&gt;
+dragger-background: &lt;&lt;colour foreground&gt;&gt;
+dragger-foreground: &lt;&lt;colour background&gt;&gt;
+dropdown-background: #424242
+dropdown-border: &lt;&lt;colour dropdown-background&gt;&gt;
+dropdown-tab-background-selected: &lt;&lt;colour dropdown-background&gt;&gt;
+dropdown-tab-background: #050505
+dropzone-background: &lt;&lt;colour page-background&gt;&gt;
+external-link-background-hover: transparent
+external-link-background-visited: transparent
+external-link-background: transparent
+external-link-foreground-hover: 
+external-link-foreground-visited: #7c318c
+external-link-foreground: #9e3eb3
+foreground: #C19d38
+message-background: &lt;&lt;colour background&gt;&gt;
+message-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+message-foreground: rgba(255, 255, 255, 0.54)
+modal-backdrop: &lt;&lt;colour page-background&gt;&gt;
+modal-background: &lt;&lt;colour background&gt;&gt;
+modal-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+modal-footer-background: &lt;&lt;colour background&gt;&gt;
+modal-footer-border: &lt;&lt;colour background&gt;&gt;
+modal-header-border: &lt;&lt;colour very-muted-foreground&gt;&gt;
+muted-foreground: #93323a
+notification-background: &lt;&lt;colour background&gt;&gt;
+notification-border: &lt;&lt;colour tiddler-border&gt;&gt;
+page-background: #140d13
+pre-background: #2a2a2a
+pre-border: transparent
+primary: #93323a
+select-tag-background: &lt;&lt;colour background&gt;&gt;
+select-tag-foreground: &lt;&lt;colour foreground&gt;&gt;
+sidebar-button-foreground: &lt;&lt;colour foreground&gt;&gt;
+sidebar-controls-foreground-hover: #494949
+sidebar-controls-foreground: #5d5d5d
+sidebar-foreground-shadow: transparent
+sidebar-foreground: rgba(255, 255, 255, 0.54)
+sidebar-muted-foreground-hover: rgba(255, 255, 255, 0.54)
+sidebar-muted-foreground: rgba(255, 255, 255, 0.38)
+sidebar-tab-background-selected: &lt;&lt;colour page-background&gt;&gt;
+sidebar-tab-background: transparent
+sidebar-tab-border-selected: &lt;&lt;colour table-border&gt;&gt;
+sidebar-tab-border: transparent
+sidebar-tab-divider: &lt;&lt;colour table-border&gt;&gt;
+sidebar-tab-foreground-selected: rgba(255, 255, 255, 0.87)
+sidebar-tab-foreground: rgba(255, 255, 255, 0.54)
+sidebar-tiddler-link-foreground-hover: &lt;&lt;colour tiddler-link-foreground-hover&gt;&gt;
+sidebar-tiddler-link-foreground: &lt;&lt;colour tiddler-link&gt;&gt;
+site-title-foreground: &lt;&lt;colour foreground&gt;&gt;
+static-alert-foreground: #aaaaaa
+tab-background-selected: &lt;&lt;colour background&gt;&gt;
+tab-background: transparent
+tab-border-selected: &lt;&lt;colour table-border&gt;&gt;
+tab-border: transparent
+tab-divider: &lt;&lt;colour table-border&gt;&gt;
+tab-foreground-selected: rgba(255, 255, 255, 0.87)
+tab-foreground: rgba(255, 255, 255, 0.54)
+table-border: &lt;&lt;colour primary&gt;&gt;
+table-footer-background: &lt;&lt;colour tiddler-editor-fields-odd&gt;&gt;
+table-header-background: #3d1818
+tag-background: #ec6
+tag-foreground: &lt;&lt;colour primary&gt;&gt;
+tiddler-background: &lt;&lt;colour background&gt;&gt;
+tiddler-border: #522
+tiddler-controls-foreground-hover: &lt;&lt;colour sidebar-controls-foreground-hover&gt;&gt;
+tiddler-controls-foreground-selected: &lt;&lt;colour sidebar-controls-foreground-hover&gt;&gt;
+tiddler-controls-foreground: &lt;&lt;colour sidebar-controls-foreground&gt;&gt;
+tiddler-editor-background: transparent
+tiddler-editor-border-image: 
+tiddler-editor-border: rgba(255, 255, 255, 0.08)
+tiddler-editor-fields-even: rgba(255, 255, 255, 0.1)
+tiddler-editor-fields-odd: rgba(255, 255, 255, 0.04)
+tiddler-info-background: #321f2f
+tiddler-info-border: &lt;&lt;colour tiddler-border&gt;&gt;
+tiddler-info-tab-background: &lt;&lt;colour tiddler-editor-fields-odd&gt;&gt;
+tiddler-link-background: &lt;&lt;colour background&gt;&gt;
+tiddler-link-foreground: &lt;&lt;colour very-muted-foreground&gt;&gt;
+tiddler-subtitle-foreground: &lt;&lt;colour muted-foreground&gt;&gt;
+tiddler-title-foreground: #fff
+toolbar-new-button: 
+toolbar-options-button: 
+toolbar-save-button: 
+toolbar-info-button: 
+toolbar-edit-button: 
+toolbar-close-button: 
+toolbar-delete-button: 
+toolbar-cancel-button: 
+toolbar-done-button: 
+untagged-background: &lt;&lt;colour very-muted-foreground&gt;&gt;
+very-muted-foreground: #e2ce9a
+tiddler-link-foreground-hover: #ffffff</pre>
 </div>
 <div created="20201228033644701" creator="Provun" modified="20210112080846797" modifier="Provun" title="$:/SiteSubtitle">
 <pre>pretend you live in a fantasy world</pre>
@@ -10406,8 +10552,8 @@ very-muted-foreground: #586e75
 <div created="20201228033555586" modified="20201228033641288" title="$:/SiteTitle">
 <pre>Roommate D&amp;D</pre>
 </div>
-<div created="20201228194152319" creator="Provun" modified="20210113020934479" modifier="Provun" title="$:/state/advancedsearch/currentTab">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div created="20201228194152319" creator="Provun" modified="20210115181124542" modifier="Provun" title="$:/state/advancedsearch/currentTab">
+<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
 </div>
 <div created="20210112062058915" creator="Provun" modified="20210112062058915" modifier="Provun" title="$:/state/edit/references--1555482013">
 <pre>show</pre>
@@ -10427,11 +10573,14 @@ very-muted-foreground: #586e75
 <div created="20210112062205414" creator="Provun" modified="20210112062205414" modifier="Provun" title="$:/state/Excise/-1833592066/tagnew">
 <pre>yes</pre>
 </div>
-<div created="20201229233322168" creator="Provun" modified="20201229234238321" modifier="Provun" title="$:/state/folded/$:/AdvancedSearch">
-<pre>show</pre>
+<div created="20201229233322168" creator="Provun" modified="20210115181228824" modifier="Provun" title="$:/state/folded/$:/AdvancedSearch">
+<pre>hide</pre>
 </div>
-<div created="20201228034517189" creator="Provun" modified="20201230005417155" modifier="Provun" title="$:/state/folded/$:/ControlPanel">
-<pre>show</pre>
+<div created="20201228034517189" creator="Provun" modified="20210115185512934" modifier="Provun" title="$:/state/folded/$:/ControlPanel">
+<pre>hide</pre>
+</div>
+<div created="20210115180654606" creator="Provun" modified="20210115183909005" modifier="Provun" title="$:/state/folded/$:/themes/tiddlywiki/vanilla/base">
+<pre>hide</pre>
 </div>
 <div created="20210113022004123" creator="Provun" modified="20210113022007773" modifier="Provun" title="$:/state/folded/Changeling">
 <pre>show</pre>
@@ -10439,7 +10588,40 @@ very-muted-foreground: #586e75
 <div created="20201228034546767" creator="Provun" modified="20201228034614311" modifier="Provun" title="$:/state/folded/Gaia">
 <pre>show</pre>
 </div>
-<div created="20201230010013661" creator="Provun" modified="20210112080449545" modifier="Provun" title="$:/state/palettemanager/showexternal">
+<div created="20210115100804225" creator="Provun" modified="20210115100804225" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/alert-background">
+<pre>show</pre>
+</div>
+<div created="20210115100840341" creator="Provun" modified="20210115100840341" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/blockquote-bar">
+<pre>show</pre>
+</div>
+<div created="20210115185353624" creator="Provun" modified="20210115185353624" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/dragger-background">
+<pre>show</pre>
+</div>
+<div created="20210115185351531" creator="Provun" modified="20210115185351531" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/dragger-foreground">
+<pre>show</pre>
+</div>
+<div created="20210115104222799" creator="Provun" modified="20210115104222799" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/notification-background">
+<pre>show</pre>
+</div>
+<div created="20210115104224923" creator="Provun" modified="20210115104224923" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/notification-border">
+<pre>show</pre>
+</div>
+<div created="20210115103643311" creator="Provun" modified="20210115103643311" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/tiddler-info-background">
+<pre>show</pre>
+</div>
+<div created="20210115103545466" creator="Provun" modified="20210115103545466" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/tiddler-info-border">
+<pre>show</pre>
+</div>
+<div created="20210115180756921" creator="Provun" modified="20210115180756921" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/tiddler-link-hover">
+<pre>show</pre>
+</div>
+<div created="20210115182727091" creator="Provun" modified="20210115182727091" modifier="Provun" title="$:/state/palettemanager/$:/palettes/Custom2/very-muted-foreground">
+<pre>show</pre>
+</div>
+<div created="20210115100733756" creator="Provun" modified="20210115100733756" modifier="Provun" title="$:/state/palettemanager/$:/palettes/SpartanNight/alert-background">
+<pre>show</pre>
+</div>
+<div created="20201230010013661" creator="Provun" modified="20210115180833277" modifier="Provun" title="$:/state/palettemanager/showexternal">
 <pre>no</pre>
 </div>
 <div created="20201228194201177" creator="Provun" modified="20201228194202840" modifier="Provun" title="$:/state/plugin-info-334910430-$:/core---1812962263">
@@ -10451,35 +10633,38 @@ very-muted-foreground: #586e75
 <div created="20201230005927444" creator="Provun" modified="20210112080352331" modifier="Provun" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20201228193948672" creator="Provun" modified="20210113020934480" modifier="Provun" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div created="20201228193948672" creator="Provun" modified="20210115181124542" modifier="Provun" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
 </div>
 <div created="20201227164123164" creator="Provun" modified="20210112224339612" modifier="Provun" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20201228033755862" creator="Provun" modified="20210112080851622" modifier="Provun" title="$:/state/tab--2112689675">
-<pre>$:/core/ui/ControlPanel/Advanced</pre>
+<div created="20201228033755862" creator="Provun" modified="20210115184503391" modifier="Provun" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Basics</pre>
 </div>
 <div created="20201228033923571" creator="Provun" modified="20201228033923571" modifier="Provun" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Themes</pre>
 </div>
-<div created="20201228193147282" creator="Provun" modified="20201228193202429" modifier="Provun" title="$:/state/tab--959111941">
-<pre>$:/core/ui/ControlPanel/TiddlerFields</pre>
+<div created="20201228193147282" creator="Provun" modified="20210115184501462" modifier="Provun" title="$:/state/tab--959111941">
+<pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20201227164120887" creator="Provun" modified="20210113022149974" modifier="Provun" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20201227164120887" creator="Provun" modified="20210115184834255" modifier="Provun" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20201228032708203" creator="Provun" modified="20210112183627991" modifier="Provun" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20210112061614253" creator="Provun" modified="20210112185453152" modifier="Provun" title="$:/state/tab/moresidebar-1850697562">
+<div created="20210112061614253" creator="Provun" modified="20210115184826514" modifier="Provun" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20201227164216254" creator="Provun" modified="20210113013253448" modifier="Provun" title="$:/state/tab/sidebar--595412856">
+<div created="20201227164216254" creator="Provun" modified="20210115185506290" modifier="Provun" title="$:/state/tab/sidebar--595412856">
 <pre>TableOfContents</pre>
 </div>
 <div created="20201228034753591" creator="Provun" modified="20201229235831728" modifier="Provun" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
+</div>
+<div created="20210115032529909" creator="Provun" modified="20210115032529909" modifier="Provun" title="$:/state/toc/TableOfContents-Adventures--118161433">
+<pre>open</pre>
 </div>
 <div created="20201231000612445" creator="Provun" modified="20201231000612445" modifier="Provun" title="$:/state/toc/TableOfContents-Basics--118161433">
 <pre>open</pre>
@@ -10511,7 +10696,7 @@ very-muted-foreground: #586e75
 <div created="20201228033652107" creator="w" modified="20201228033706912" modifier="Provu" title="$:/status/UserName">
 <pre>Provun</pre>
 </div>
-<div created="20210113013303226" creator="Provun" list="$:/AdvancedSearch $:/user/ui/Buttons/publish $:/user/macros Changeling Race" modified="20210113022422218" modifier="Provun" title="$:/StoryList">
+<div created="20210115094658375" creator="Provun" list="$:/language/Docs/PaletteColours/sidebar-tiddler-link-foreground-hover $:/themes/tiddlywiki/vanilla/base $:/ControlPanel [[Play History]] Race Gaia Desolation" modified="20210115181128747" modifier="Provun" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210112185624566" creator="Provun" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/user/ui/Buttons/publish $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions" modified="20210112185637748" modifier="Provun" title="$:/tags/PageControls">
@@ -10629,6 +10814,2985 @@ very-muted-foreground: #586e75
     }
 }</pre>
 </div>
+<div created="20210115180625928" creator="Provun" modified="20210115184810051" modifier="Provun" tags="$:/tags/Stylesheet" title="$:/themes/tiddlywiki/vanilla/base">
+<pre>\define custom-background-datauri()
+&lt;$set name=&quot;background&quot; value={{$:/themes/tiddlywiki/vanilla/settings/backgroundimage}}&gt;
+&lt;$list filter=&quot;[&lt;background&gt;is[image]]&quot;&gt;
+`background: url(`
+&lt;$list filter=&quot;[&lt;background&gt;!has[_canonical_uri]]&quot;&gt;
+`&quot;`&lt;$macrocall $name=&quot;datauri&quot; title={{$:/themes/tiddlywiki/vanilla/settings/backgroundimage}}/&gt;`&quot;`
+&lt;/$list&gt;
+&lt;$list filter=&quot;[&lt;background&gt;has[_canonical_uri]]&quot;&gt;
+`&quot;`&lt;$view tiddler={{$:/themes/tiddlywiki/vanilla/settings/backgroundimage}} field=&quot;_canonical_uri&quot;/&gt;`&quot;`
+&lt;/$list&gt;
+`) center center;`
+`background-attachment: `{{$:/themes/tiddlywiki/vanilla/settings/backgroundimageattachment}}`;
+-webkit-background-size:` {{$:/themes/tiddlywiki/vanilla/settings/backgroundimagesize}}`;
+-moz-background-size:` {{$:/themes/tiddlywiki/vanilla/settings/backgroundimagesize}}`;
+-o-background-size:` {{$:/themes/tiddlywiki/vanilla/settings/backgroundimagesize}}`;
+background-size:` {{$:/themes/tiddlywiki/vanilla/settings/backgroundimagesize}}`;`
+&lt;/$list&gt;
+&lt;/$set&gt;
+\end
+
+\define sidebarbreakpoint()
+&lt;$text text={{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}/&gt;
+\end
+
+\define sidebarbreakpoint-minus-one()
+&lt;$text text={{{ [{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}removesuffix[px]subtract[1]addsuffix[px]] ~[{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}] }}}/&gt;
+\end
+
+\define if-fluid-fixed(text,hiddenSidebarText)
+&lt;$reveal state=&quot;$:/themes/tiddlywiki/vanilla/options/sidebarlayout&quot; type=&quot;match&quot; text=&quot;fluid-fixed&quot;&gt;
+$text$
+&lt;$reveal state=&quot;$:/state/sidebar&quot; type=&quot;nomatch&quot; text=&quot;yes&quot; default=&quot;yes&quot;&gt;
+$hiddenSidebarText$
+&lt;/$reveal&gt;
+&lt;/$reveal&gt;
+\end
+
+\define if-editor-height-fixed(then,else)
+&lt;$reveal state=&quot;$:/config/TextEditor/EditorHeight/Mode&quot; type=&quot;match&quot; text=&quot;fixed&quot;&gt;
+$then$
+&lt;/$reveal&gt;
+&lt;$reveal state=&quot;$:/config/TextEditor/EditorHeight/Mode&quot; type=&quot;match&quot; text=&quot;auto&quot;&gt;
+$else$
+&lt;/$reveal&gt;
+\end
+
+\define set-type-selector-min-width()
+&lt;$set name=&quot;typeLength&quot; value={{{ [all[shadows+tiddlers]prefix[$:/language/Docs/Types/]get[name]length[]maxall[]] }}}&gt;
+
+	.tc-type-selector-dropdown-wrapper {
+		min-width: calc(&lt;&lt;typeLength&gt;&gt;ch + 4em);
+	}
+
+	.tc-type-selector-dropdown-wrapper input.tc-edit-typeeditor {
+		min-width: &lt;&lt;typeLength&gt;&gt;ch;
+	}
+
+&lt;/$set&gt;
+\end
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline macrocallblock
+
+/*
+** Start with the normalize CSS reset, and then belay some of its effects
+*/
+
+{{$:/themes/tiddlywiki/vanilla/reset}}
+
+*, input[type=&quot;search&quot;] {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+input[type=&quot;search&quot;] {
+  outline-offset: initial;
+}
+
+html button {
+	line-height: 1.2;
+	color: &lt;&lt;colour button-foreground&gt;&gt;;
+	fill: &lt;&lt;colour button-foreground&gt;&gt;;
+	background: &lt;&lt;colour button-background&gt;&gt;;
+	border-color: &lt;&lt;colour button-border&gt;&gt;;
+}
+
+/*
+** Basic element styles
+*/
+
+html, body {
+	font-family: {{$:/themes/tiddlywiki/vanilla/settings/fontfamily}};
+	text-rendering: optimizeLegibility; /* Enables kerning and ligatures etc. */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html:-webkit-full-screen {
+	background-color: &lt;&lt;colour page-background&gt;&gt;;
+}
+
+body.tc-body {
+	font-size: {{$:/themes/tiddlywiki/vanilla/metrics/fontsize}};
+	line-height: {{$:/themes/tiddlywiki/vanilla/metrics/lineheight}};
+	word-wrap: break-word;
+	&lt;&lt;custom-background-datauri&gt;&gt;
+	color: &lt;&lt;colour foreground&gt;&gt;;
+	background-color: &lt;&lt;colour page-background&gt;&gt;;
+	fill: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+&lt;&lt;if-background-attachment &quot;&quot;&quot;
+
+body.tc-body {
+        background-color: transparent;
+}
+
+&quot;&quot;&quot;&gt;&gt;
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+	font-size: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+	font-weight: 300;
+}
+
+pre {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	word-break: normal;
+	word-wrap: break-word;
+	white-space: {{$:/themes/tiddlywiki/vanilla/options/codewrapping}};
+	background-color: &lt;&lt;colour pre-background&gt;&gt;;
+	border: 1px solid &lt;&lt;colour pre-border&gt;&gt;;
+	padding: 0 3px 2px;
+	border-radius: 3px;
+	font-family: {{$:/themes/tiddlywiki/vanilla/settings/codefontfamily}};
+}
+
+code {
+	color: &lt;&lt;colour code-foreground&gt;&gt;;
+	background-color: &lt;&lt;colour code-background&gt;&gt;;
+	border: 1px solid &lt;&lt;colour code-border&gt;&gt;;
+	white-space: {{$:/themes/tiddlywiki/vanilla/options/codewrapping}};
+	padding: 0 3px 2px;
+	border-radius: 3px;
+	font-family: {{$:/themes/tiddlywiki/vanilla/settings/codefontfamily}};
+}
+
+blockquote {
+	border-left: 5px solid &lt;&lt;colour blockquote-bar&gt;&gt;;
+	margin-left: 25px;
+	padding-left: 10px;
+	quotes: &quot;\201C&quot;&quot;\201D&quot;&quot;\2018&quot;&quot;\2019&quot;;
+}
+
+blockquote &gt; div {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+blockquote.tc-big-quote {
+	font-family: Georgia, serif;
+	position: relative;
+	background: &lt;&lt;colour pre-background&gt;&gt;;
+	border-left: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+    border-radius: 8px;
+}
+
+blockquote.tc-big-quote cite:before {
+	content: &quot;\2014 \2009&quot;;
+}
+
+blockquote.tc-big-quote:before {
+	font-family: Georgia, serif;
+	color: &lt;&lt;colour blockquote-bar&gt;&gt;;
+	content: open-quote;
+	font-size: 8em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+	position: absolute;
+    left: -50px;
+    top: 42px;
+}
+
+blockquote.tc-big-quote:after {
+	font-family: Georgia, serif;
+	color: &lt;&lt;colour blockquote-bar&gt;&gt;;
+	content: close-quote;
+	font-size: 8em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+	position: absolute;
+    right: -80px;
+    bottom: -20px;
+}
+
+dl dt {
+	font-weight: bold;
+	margin-top: 6px;
+}
+
+button, textarea, input, select {
+	outline-color: &lt;&lt;colour primary&gt;&gt;;
+}
+
+textarea,
+input[type=text],
+input[type=search],
+input[type=&quot;&quot;],
+input:not([type]) {
+	color: &lt;&lt;colour foreground&gt;&gt;;
+	background: &lt;&lt;colour background&gt;&gt;;
+	border-color: &lt;&lt;colour button-border&gt;&gt;;
+}
+
+input[type=&quot;checkbox&quot;] {
+  vertical-align: middle;
+}
+
+input[type=&quot;search&quot;]::-webkit-search-decoration,
+input[type=&quot;search&quot;]::-webkit-search-cancel-button,
+input[type=&quot;search&quot;]::-webkit-search-results-button,
+input[type=&quot;search&quot;]::-webkit-search-results-decoration {
+	-webkit-appearance:none;
+}
+
+.tc-muted {
+	color: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+svg.tc-image-button {
+	padding: 0px 1px 1px 0px;
+}
+
+.tc-icon-wrapper &gt; svg {
+	width: 1em;
+	height: 1em;
+}
+
+kbd {
+	display: inline-block;
+	padding: 3px 5px;
+	font-size: 0.8em;
+	line-height: 1.2;
+	color: &lt;&lt;colour foreground&gt;&gt;;
+	vertical-align: middle;
+	background-color: &lt;&lt;colour background&gt;&gt;;
+	border: solid 1px &lt;&lt;colour muted-foreground&gt;&gt;;
+	border-bottom-color: &lt;&lt;colour muted-foreground&gt;&gt;;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+::selection {
+	background-color: Highlight;
+	color: HighlightText;
+	background-color: &lt;&lt;colour selection-background&gt;&gt;;
+	color: &lt;&lt;colour selection-foreground&gt;&gt;;
+}
+
+/*
+Markdown likes putting code elements inside pre elements
+*/
+pre &gt; code {
+	padding: 0;
+	border: none;
+	background-color: inherit;
+	color: inherit;
+}
+
+table {
+	border: 1px solid &lt;&lt;colour table-border&gt;&gt;;
+	width: auto;
+	max-width: 100%;
+	caption-side: bottom;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	/* next 2 elements needed, since normalize 8.0.1 */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table th, table td {
+	padding: 0 7px 0 7px;
+	border-top: 1px solid &lt;&lt;colour table-border&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour table-border&gt;&gt;;
+}
+
+table thead tr td, table th {
+	background-color: &lt;&lt;colour table-header-background&gt;&gt;;
+	font-weight: bold;
+}
+
+table tfoot tr td {
+	background-color: &lt;&lt;colour table-footer-background&gt;&gt;;
+}
+
+.tc-csv-table {
+	white-space: nowrap;
+}
+
+.tc-tiddler-frame img,
+.tc-tiddler-frame svg,
+.tc-tiddler-frame canvas,
+.tc-tiddler-frame embed,
+.tc-tiddler-frame iframe {
+	max-width: 100%;
+}
+
+.tc-tiddler-body &gt; embed,
+.tc-tiddler-body &gt; iframe {
+	width: 100%;
+	height: 600px;
+}
+
+/*
+** Links
+*/
+
+button.tc-tiddlylink,
+a.tc-tiddlylink {
+	text-decoration: none;
+	font-weight: 500;
+	color: &lt;&lt;colour tiddler-link-foreground&gt;&gt;;
+	-webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
+}
+
+.tc-sidebar-lists a.tc-tiddlylink {
+	color: &lt;&lt;colour sidebar-tiddler-link-foreground&gt;&gt;;
+}
+
+.tc-sidebar-lists a.tc-tiddlylink:hover {
+	color: &lt;&lt;colour sidebar-tiddler-link-foreground-hover&gt;&gt;;
+}
+
+button.tc-tiddlylink:hover,
+a.tc-tiddlylink:hover {
+	text-decoration: underline;
+	color: &lt;&lt;colour tiddler-link-foreground-hover&gt;&gt;
+}
+
+a.tc-tiddlylink-resolves {
+}
+
+a.tc-tiddlylink-shadow {
+	font-weight: bold;
+}
+
+a.tc-tiddlylink-shadow.tc-tiddlylink-resolves {
+	font-weight: normal;
+}
+
+a.tc-tiddlylink-missing {
+	font-style: italic;
+}
+
+a.tc-tiddlylink-external {
+	text-decoration: underline;
+	color: &lt;&lt;colour external-link-foreground&gt;&gt;;
+	background-color: &lt;&lt;colour external-link-background&gt;&gt;;
+}
+
+a.tc-tiddlylink-external:visited {
+	color: &lt;&lt;colour external-link-foreground-visited&gt;&gt;;
+	background-color: &lt;&lt;colour external-link-background-visited&gt;&gt;;
+}
+
+a.tc-tiddlylink-external:hover {
+	color: &lt;&lt;colour external-link-foreground-hover&gt;&gt;;
+	background-color: &lt;&lt;colour external-link-background-hover&gt;&gt;;
+}
+
+.tc-drop-down a.tc-tiddlylink:hover {
+	color: &lt;&lt;colour tiddler-link-background&gt;&gt;;
+}
+
+/*
+** Drag and drop styles
+*/
+
+.tc-tiddler-dragger {
+	position: relative;
+	z-index: -10000;
+}
+
+.tc-tiddler-dragger-inner {
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+	display: inline-block;
+	padding: 8px 20px;
+	font-size: 16.9px;
+	font-weight: bold;
+	line-height: 20px;
+	color: &lt;&lt;colour dragger-foreground&gt;&gt;;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: &lt;&lt;colour dragger-background&gt;&gt;;
+	border-radius: 20px;
+}
+
+.tc-tiddler-dragger-cover {
+	position: absolute;
+	background-color: &lt;&lt;colour page-background&gt;&gt;;
+}
+
+.tc-dropzone {
+	position: relative;
+}
+
+.tc-dropzone.tc-dragover:before {
+	z-index: 10000;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: &lt;&lt;colour dropzone-background&gt;&gt;;
+	text-align: center;
+	content: &quot;&lt;&lt;lingo DropMessage&gt;&gt;&quot;;
+}
+
+.tc-droppable &gt; .tc-droppable-placeholder {
+	display: none;
+}
+
+.tc-droppable.tc-dragover &gt; .tc-droppable-placeholder {
+	display: block;
+	border: 2px dashed &lt;&lt;colour dropzone-background&gt;&gt;;
+}
+
+.tc-draggable {
+	cursor: move;
+}
+
+.tc-sidebar-tab-open .tc-droppable-placeholder, .tc-tagged-draggable-list .tc-droppable-placeholder,
+.tc-links-draggable-list .tc-droppable-placeholder {
+	line-height: 2em;
+	height: 2em;
+}
+
+.tc-sidebar-tab-open-item {
+	position: relative;
+}
+
+.tc-sidebar-tab-open .tc-btn-invisible.tc-btn-mini svg {
+	font-size: 0.7em;
+	fill: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+/*
+** Plugin reload warning
+*/
+
+.tc-plugin-reload-warning {
+	z-index: 1000;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: &lt;&lt;colour alert-background&gt;&gt;;
+	text-align: center;
+}
+
+/*
+** Buttons
+*/
+
+button svg, button img, label svg, label img {
+	vertical-align: middle;
+}
+
+.tc-btn-invisible {
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: &lt;&lt;colour foreground&gt;&gt;;
+	fill: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+.tc-btn-boxed {
+	font-size: 0.6em;
+	padding: 0.2em;
+	margin: 1px;
+	background: none;
+	border: 1px solid &lt;&lt;colour tiddler-controls-foreground&gt;&gt;;
+	border-radius: 0.25em;
+}
+
+html body.tc-body .tc-btn-boxed svg {
+	font-size: 1.6666em;
+}
+
+.tc-btn-boxed:hover {
+	background: &lt;&lt;colour muted-foreground&gt;&gt;;
+	color: &lt;&lt;colour background&gt;&gt;;
+}
+
+html body.tc-body .tc-btn-boxed:hover svg {
+	fill: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-btn-rounded {
+	font-size: 0.5em;
+	line-height: 2;
+	padding: 0em 0.3em 0.2em 0.4em;
+	margin: 1px;
+	border: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	background: &lt;&lt;colour muted-foreground&gt;&gt;;
+	color: &lt;&lt;colour background&gt;&gt;;
+	border-radius: 2em;
+}
+
+html body.tc-body .tc-btn-rounded svg {
+	font-size: 1.6666em;
+	fill: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-btn-rounded:hover {
+	border: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	background: &lt;&lt;colour background&gt;&gt;;
+	color: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+html body.tc-body .tc-btn-rounded:hover svg {
+	fill: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-btn-icon svg {
+	height: 1em;
+	width: 1em;
+	fill: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-btn-text {
+	padding: 0;
+	margin: 0;
+}
+
+/* used for documentation &quot;fake&quot; buttons */
+.tc-btn-standard {
+	line-height: 1.8;
+	color: #667;
+	background-color: #e0e0e0;
+	border: 1px solid #888;
+	padding: 2px 1px 2px 1px;
+	margin: 1px 4px 1px 4px;
+}
+
+.tc-btn-big-green {
+	display: inline-block;
+	padding: 8px;
+	margin: 4px 8px 4px 8px;
+	background: &lt;&lt;colour download-background&gt;&gt;;
+	color: &lt;&lt;colour download-foreground&gt;&gt;;
+	fill: &lt;&lt;colour download-foreground&gt;&gt;;
+	border: none;
+	border-radius: 2px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	text-decoration: none;
+}
+
+.tc-btn-big-green svg,
+.tc-btn-big-green img {
+	height: 2em;
+	width: 2em;
+	vertical-align: middle;
+	fill: &lt;&lt;colour download-foreground&gt;&gt;;
+}
+
+.tc-primary-btn {
+ 	background: &lt;&lt;colour primary&gt;&gt;;
+}
+
+.tc-sidebar-lists input {
+	color: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+.tc-sidebar-lists button {
+	color: &lt;&lt;colour sidebar-button-foreground&gt;&gt;;
+	fill: &lt;&lt;colour sidebar-button-foreground&gt;&gt;;
+}
+
+.tc-sidebar-lists button.tc-btn-mini {
+	color: &lt;&lt;colour sidebar-muted-foreground&gt;&gt;;
+}
+
+.tc-sidebar-lists button.tc-btn-mini:hover {
+	color: &lt;&lt;colour sidebar-muted-foreground-hover&gt;&gt;;
+}
+
+.tc-sidebar-lists button small {
+	color: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+button svg.tc-image-button, button .tc-image-button img {
+	height: 1em;
+	width: 1em;
+}
+
+.tc-unfold-banner {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+	width: 100%;
+	width: calc(100% + 2px);
+	margin-left: -43px;
+	text-align: center;
+	border-top: 2px solid &lt;&lt;colour tiddler-info-background&gt;&gt;;
+	margin-top: 4px;
+}
+
+.tc-unfold-banner:hover {
+	background: &lt;&lt;colour tiddler-info-background&gt;&gt;;
+	border-top: 2px solid &lt;&lt;colour tiddler-info-border&gt;&gt;;
+}
+
+.tc-unfold-banner svg, .tc-fold-banner svg {
+	height: 0.75em;
+	fill: &lt;&lt;colour tiddler-controls-foreground&gt;&gt;;
+}
+
+.tc-unfold-banner:hover svg, .tc-fold-banner:hover svg {
+	fill: &lt;&lt;colour tiddler-controls-foreground-hover&gt;&gt;;
+}
+
+.tc-fold-banner {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background: none;
+	border: none;
+	width: 23px;
+	text-align: center;
+	margin-left: -35px;
+	top: 6px;
+	bottom: 6px;
+}
+
+.tc-fold-banner:hover {
+	background: &lt;&lt;colour tiddler-info-background&gt;&gt;;
+}
+
+@media (max-width: &lt;&lt;sidebarbreakpoint-minus-one&gt;&gt;) {
+
+	.tc-unfold-banner {
+		position: static;
+		width: calc(100% + 59px);
+	}
+
+	.tc-fold-banner {
+		width: 16px;
+		margin-left: -16px;
+		font-size: 0.75em;
+	}
+
+}
+
+/*
+** Tags and missing tiddlers
+*/
+
+.tc-tag-list-item {
+	position: relative;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.tc-tags-wrapper {
+	margin: 4px 0 14px 0;
+}
+
+.tc-missing-tiddler-label {
+	font-style: italic;
+	font-weight: normal;
+	display: inline-block;
+	font-size: 11.844px;
+	line-height: 14px;
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+
+.tc-block-tags-dropdown &gt; .tc-btn-invisible:hover {
+	background-color: &lt;&lt;colour primary&gt;&gt;;
+}
+
+button.tc-tag-label, span.tc-tag-label {
+	display: inline-block;
+	padding: 0.16em 0.7em;
+	font-size: 0.9em;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: &lt;&lt;colour tag-foreground&gt;&gt;;
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: &lt;&lt;colour tag-background&gt;&gt;;
+	border-radius: 1em;
+}
+
+.tc-sidebar-scrollable .tc-tag-label {
+	text-shadow: none;
+}
+
+.tc-untagged-separator {
+	width: 10em;
+	left: 0;
+	margin-left: 0;
+	border: 0;
+	height: 1px;
+	background: &lt;&lt;colour tab-divider&gt;&gt;;
+}
+
+button.tc-untagged-label {
+	background-color: &lt;&lt;colour untagged-background&gt;&gt;;
+}
+
+.tc-tag-label svg, .tc-tag-label img {
+	height: 1em;
+	width: 1em;
+	margin-right: 3px; 
+	margin-bottom: 1px;
+	vertical-align: bottom;
+}
+
+.tc-edit-tags button.tc-remove-tag-button svg {
+	font-size: 0.7em;
+	vertical-align: middle;
+}
+
+.tc-tag-manager-table .tc-tag-label {
+	white-space: normal;
+}
+
+.tc-tag-manager-tag {
+	width: 100%;
+}
+
+button.tc-btn-invisible.tc-remove-tag-button {
+	outline: none;
+}
+
+.tc-tag-button-selected,
+.tc-list-item-selected a.tc-tiddlylink, a.tc-list-item-selected {
+	background-color: &lt;&lt;colour primary&gt;&gt;;
+	color: &lt;&lt;colour tiddler-background&gt;&gt;;
+}
+
+/*
+** Page layout
+*/
+
+.tc-topbar {
+	position: fixed;
+	z-index: 1200;
+}
+
+.tc-topbar-left {
+	left: 29px;
+	top: 5px;
+}
+
+.tc-topbar-right {
+	top: 5px;
+	right: 29px;
+}
+
+@media (max-width: &lt;&lt;sidebarbreakpoint-minus-one&gt;&gt;) {
+
+	.tc-topbar-right {
+		right: 10px;
+	}
+
+}
+
+.tc-topbar button {
+	padding: 8px;
+}
+
+.tc-topbar svg {
+	fill: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-topbar button:hover svg {
+	fill: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+@media (max-width: &lt;&lt;sidebarbreakpoint-minus-one&gt;&gt;) {
+
+	.tc-show-sidebar-btn svg.tc-image-chevron-left, .tc-hide-sidebar-btn svg.tc-image-chevron-right {
+		transform: rotate(-90deg);
+	}
+
+}
+
+.tc-sidebar-header {
+	color: &lt;&lt;colour sidebar-foreground&gt;&gt;;
+	fill: &lt;&lt;colour sidebar-foreground&gt;&gt;;
+}
+
+.tc-sidebar-header .tc-title a.tc-tiddlylink-resolves {
+	font-weight: 300;
+}
+
+.tc-sidebar-header .tc-sidebar-lists p {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.tc-sidebar-header .tc-missing-tiddler-label {
+	color: &lt;&lt;colour sidebar-foreground&gt;&gt;;
+}
+
+.tc-advanced-search input {
+	width: 60%;
+}
+
+.tc-search a svg {
+	width: 1.2em;
+	height: 1.2em;
+	vertical-align: middle;
+}
+
+.tc-page-controls {
+	margin-top: 14px;
+	font-size: 1.5em;
+}
+
+.tc-page-controls .tc-drop-down {
+  font-size: 1rem;
+}
+
+.tc-page-controls button {
+	margin-right: 0.5em;
+}
+
+.tc-page-controls a.tc-tiddlylink:hover {
+	text-decoration: none;
+}
+
+.tc-page-controls img {
+	width: 1em;
+}
+
+.tc-page-controls svg {
+	fill: &lt;&lt;colour sidebar-controls-foreground&gt;&gt;;
+}
+
+.tc-page-controls button:hover svg, .tc-page-controls a:hover svg {
+	fill: &lt;&lt;colour sidebar-controls-foreground-hover&gt;&gt;;
+}
+
+.tc-sidebar-lists .tc-menu-list-item {
+	white-space: nowrap;
+}
+
+.tc-menu-list-count {
+	font-weight: bold;
+}
+
+.tc-menu-list-subitem {
+	padding-left: 7px;
+}
+
+.tc-story-river {
+	position: relative;
+}
+
+@media (max-width: &lt;&lt;sidebarbreakpoint-minus-one&gt;&gt;) {
+
+	.tc-sidebar-header {
+		padding: 14px;
+		min-height: 32px;
+		margin-top: {{$:/themes/tiddlywiki/vanilla/metrics/storytop}};
+		transition:  min-height {{$:/config/AnimationDuration}}ms ease-in-out, padding-top {{$:/config/AnimationDuration}}ms ease-in-out, padding-bottom {{$:/config/AnimationDuration}}ms ease-in-out;
+	}
+	
+	&lt;&lt;if-no-sidebar &quot;&quot;&quot;
+
+		.tc-sidebar-header {
+			min-height: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+	&quot;&quot;&quot;&gt;&gt;
+
+	.tc-story-river {
+		position: relative;
+		padding: 0;
+	}
+}
+
+@media (min-width: &lt;&lt;sidebarbreakpoint&gt;&gt;) {
+
+	.tc-message-box {
+		margin: 21px -21px 21px -21px;
+	}
+
+	.tc-sidebar-scrollable {
+		position: fixed;
+		top: {{$:/themes/tiddlywiki/vanilla/metrics/storytop}};
+		left: {{$:/themes/tiddlywiki/vanilla/metrics/storyright}};
+		bottom: 0;
+		right: 0;
+		overflow-y: auto;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		margin: 0 0 0 -42px;
+		padding: 71px 0 28px 42px;
+	}
+
+	html[dir=&quot;rtl&quot;] .tc-sidebar-scrollable {
+		left: auto;
+		right: {{$:/themes/tiddlywiki/vanilla/metrics/storyright}};
+	}
+
+	.tc-story-river {
+		position: relative;
+		left: {{$:/themes/tiddlywiki/vanilla/metrics/storyleft}};
+		top: {{$:/themes/tiddlywiki/vanilla/metrics/storytop}};
+		width: {{$:/themes/tiddlywiki/vanilla/metrics/storywidth}};
+		padding: 42px 42px 42px 42px;
+	}
+
+&lt;&lt;if-no-sidebar &quot;
+
+	.tc-story-river {
+		width: calc(100% - {{$:/themes/tiddlywiki/vanilla/metrics/storyleft}});
+	}
+
+&quot;&gt;&gt;
+
+	.tc-story-river.tc-static-story-river {
+		margin-right: 0;
+		padding-right: 42px;
+	}
+
+}
+
+@media print {
+
+	body.tc-body {
+		background-color: transparent;
+	}
+
+	.tc-sidebar-header, .tc-topbar {
+		display: none;
+	}
+
+	.tc-story-river {
+		margin: 0;
+		padding: 0;
+	}
+
+	.tc-story-river .tc-tiddler-frame {
+		margin: 0;
+		border: none;
+		padding: 0;
+	}
+}
+
+/*
+** Tiddler styles
+*/
+
+.tc-tiddler-frame {
+	position: relative;
+	margin-bottom: 28px;
+	background-color: &lt;&lt;colour tiddler-background&gt;&gt;;
+	border: 1px solid &lt;&lt;colour tiddler-border&gt;&gt;;
+}
+
+{{$:/themes/tiddlywiki/vanilla/sticky}}
+
+.tc-tiddler-info {
+	padding: 14px 42px 14px 42px;
+	background-color: &lt;&lt;colour tiddler-info-background&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour tiddler-info-border&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour tiddler-info-border&gt;&gt;;
+}
+
+.tc-tiddler-info p {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.tc-tiddler-info .tc-tab-buttons button.tc-tab-selected {
+	background-color: &lt;&lt;colour tiddler-info-tab-background&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour tiddler-info-tab-background&gt;&gt;;
+}
+
+@media (max-width: &lt;&lt;sidebarbreakpoint-minus-one&gt;&gt;) {
+
+	.tc-tiddler-info {
+		padding: 14px 14px 14px 14px;
+	}
+
+}
+
+.tc-view-field-table {
+	width: 100%;
+}
+
+.tc-view-field-name {
+	width: 1%; /* Makes this column be as narrow as possible */
+	text-align: right;
+	font-style: italic;
+	font-weight: 200;
+}
+
+.tc-view-field-value {
+}
+
+@media (max-width: &lt;&lt;sidebarbreakpoint-minus-one&gt;&gt;) {
+	.tc-tiddler-frame {
+		padding: 14px 14px 14px 14px;
+		margin-bottom: .5em;
+	}
+
+	.tc-tiddler-info {
+		margin: 0 -14px 0 -14px;
+	}
+}
+
+@media (min-width: &lt;&lt;sidebarbreakpoint&gt;&gt;) {
+	.tc-tiddler-frame {
+		padding: 28px 42px 42px 42px;
+		width: {{$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth}};
+		border-radius: 2px;
+	}
+
+&lt;&lt;if-no-sidebar &quot;
+
+	.tc-tiddler-frame {
+		width: 100%;
+	}
+
+&quot;&gt;&gt;
+
+	.tc-tiddler-info {
+		margin: 0 -42px 0 -42px;
+	}
+}
+
+.tc-site-title,
+.tc-titlebar {
+	font-weight: 300;
+	font-size: 2.35em;
+	line-height: 1.35em;
+	color: &lt;&lt;colour tiddler-title-foreground&gt;&gt;;
+	margin: 0;
+}
+
+.tc-site-title {
+	color: &lt;&lt;colour site-title-foreground&gt;&gt;;
+}
+
+.tc-tiddler-title-icon {
+	vertical-align: middle;
+	margin-right: .1em;
+}
+
+.tc-system-title-prefix {
+	color: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-titlebar h2 {
+	font-size: 1em;
+	display: inline;
+}
+
+.tc-titlebar img {
+	height: 1em;
+}
+
+.tc-subtitle {
+	font-size: 0.9em;
+	color: &lt;&lt;colour tiddler-subtitle-foreground&gt;&gt;;
+	font-weight: 300;
+}
+
+.tc-subtitle .tc-tiddlylink {
+	margin-right: .3em;
+}
+
+.tc-tiddler-missing .tc-title {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.tc-tiddler-frame .tc-tiddler-controls {
+	float: right;
+}
+
+.tc-tiddler-controls .tc-drop-down {
+	font-size: 0.6em;
+}
+
+.tc-tiddler-controls .tc-drop-down .tc-drop-down {
+	font-size: 1em;
+}
+
+.tc-tiddler-controls &gt; span &gt; button,
+.tc-tiddler-controls &gt; span &gt; span &gt; button,
+.tc-tiddler-controls &gt; span &gt; span &gt; span &gt; button {
+	vertical-align: baseline;
+	margin-left:5px;
+}
+
+.tc-tiddler-controls button svg, .tc-tiddler-controls button img,
+.tc-search button svg, .tc-search a svg {
+	fill: &lt;&lt;colour tiddler-controls-foreground&gt;&gt;;
+}
+
+.tc-tiddler-controls button svg, .tc-tiddler-controls button img {
+	height: 0.75em;
+}
+
+.tc-search button svg, .tc-search a svg {
+    height: 1.2em;
+    width: 1.2em;
+    margin: 0 0.25em;
+}
+
+.tc-tiddler-controls button.tc-selected svg,
+.tc-page-controls button.tc-selected svg  {
+	fill: &lt;&lt;colour tiddler-controls-foreground-selected&gt;&gt;;
+}
+
+.tc-tiddler-controls button.tc-btn-invisible:hover svg,
+.tc-search button:hover svg, .tc-search a:hover svg {
+	fill: &lt;&lt;colour tiddler-controls-foreground-hover&gt;&gt;;
+}
+
+@media print {
+	.tc-tiddler-controls {
+		display: none;
+	}
+}
+
+.tc-tiddler-help { /* Help prompts within tiddler template */
+	color: &lt;&lt;colour muted-foreground&gt;&gt;;
+	margin-top: 14px;
+}
+
+.tc-tiddler-help a.tc-tiddlylink {
+	color: &lt;&lt;colour very-muted-foreground&gt;&gt;;
+}
+
+.tc-tiddler-frame .tc-edit-texteditor {
+	width: 100%;
+	margin: 4px 0 4px 0;
+}
+
+.tc-tiddler-frame input.tc-edit-texteditor,
+.tc-tiddler-frame textarea.tc-edit-texteditor,
+.tc-tiddler-frame iframe.tc-edit-texteditor {
+	padding: 3px 3px 3px 3px;
+	border: 1px solid &lt;&lt;colour tiddler-editor-border&gt;&gt;;
+	line-height: 1.3em;
+	-webkit-appearance: none;
+	font-family: {{$:/themes/tiddlywiki/vanilla/settings/editorfontfamily}};
+}
+
+.tc-tiddler-frame input.tc-edit-texteditor,
+.tc-tiddler-frame textarea.tc-edit-texteditor {
+	background-color: &lt;&lt;colour tiddler-editor-background&gt;&gt;;
+}
+
+.tc-tiddler-frame iframe.tc-edit-texteditor {
+	background-color: &lt;&lt;colour tiddler-background&gt;&gt;;
+}
+
+.tc-tiddler-frame .tc-binary-warning {
+	width: 100%;
+	height: 5em;
+	text-align: center;
+	padding: 3em 3em 6em 3em;
+	background: &lt;&lt;colour alert-background&gt;&gt;;
+	border: 1px solid &lt;&lt;colour alert-border&gt;&gt;;
+}
+
+canvas.tc-edit-bitmapeditor  {
+	border: 6px solid &lt;&lt;colour tiddler-editor-border-image&gt;&gt;;
+	cursor: crosshair;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.tc-edit-bitmapeditor-width {
+	display: block;
+}
+
+.tc-edit-bitmapeditor-height {
+	display: block;
+}
+
+.tc-tiddler-body {
+	clear: both;
+}
+
+.tc-tiddler-frame .tc-tiddler-body {
+	font-size: {{$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize}};
+	line-height: {{$:/themes/tiddlywiki/vanilla/metrics/bodylineheight}};
+}
+
+.tc-tiddler-body h1,
+.tc-tiddler-body h2,
+.tc-tiddler-body h3,
+.tc-tiddler-body h4,
+.tc-tiddler-body h5 {
+	color: &lt;&lt;colour very-muted-foreground&gt;&gt;
+}
+
+.tc-titlebar, .tc-tiddler-edit-title {
+	overflow: hidden; /* https://github.com/Jermolene/TiddlyWiki5/issues/282 */
+}
+
+html body.tc-body.tc-single-tiddler-window {
+	margin: 1em;
+	background: &lt;&lt;colour tiddler-background&gt;&gt;;
+}
+
+.tc-single-tiddler-window img,
+.tc-single-tiddler-window svg,
+.tc-single-tiddler-window canvas,
+.tc-single-tiddler-window embed,
+.tc-single-tiddler-window iframe {
+	max-width: 100%;
+}
+
+/*
+** Editor
+*/
+
+.tc-editor-toolbar {
+	margin-top: 8px;
+}
+
+.tc-editor-toolbar button {
+	vertical-align: middle;
+	background-color: &lt;&lt;colour tiddler-controls-foreground&gt;&gt;;
+	color: &lt;&lt;colour tiddler-controls-foreground-selected&gt;&gt;;
+	fill: &lt;&lt;colour tiddler-controls-foreground-selected&gt;&gt;;
+	border-radius: 4px;
+	padding: 3px;
+	margin: 2px 0 2px 4px;
+}
+
+.tc-editor-toolbar button.tc-text-editor-toolbar-item-adjunct {
+	margin-left: 1px;
+	width: 1em;
+	border-radius: 8px;
+}
+
+.tc-editor-toolbar button.tc-text-editor-toolbar-item-start-group {
+	margin-left: 11px;
+}
+
+.tc-editor-toolbar button.tc-selected {
+	background-color: &lt;&lt;colour primary&gt;&gt;;
+}
+
+.tc-editor-toolbar button svg {
+	width: 1.6em;
+	height: 1.2em;
+}
+
+.tc-editor-toolbar button:hover {
+	background-color: &lt;&lt;colour tiddler-controls-foreground-selected&gt;&gt;;
+	fill: &lt;&lt;colour background&gt;&gt;;
+	color: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-editor-toolbar .tc-text-editor-toolbar-more {
+	white-space: normal;
+}
+
+.tc-editor-toolbar .tc-text-editor-toolbar-more button {
+	display: inline-block;
+	padding: 3px;
+	width: auto;
+}
+
+.tc-editor-toolbar .tc-search-results {
+	padding: 0;
+}
+
+/*
+** Adjustments for fluid-fixed mode
+*/
+
+@media (min-width: &lt;&lt;sidebarbreakpoint&gt;&gt;) {
+
+&lt;&lt;if-fluid-fixed text:&quot;&quot;&quot;
+
+	.tc-story-river {
+		padding-right: 0;
+		position: relative;
+		width: auto;
+		left: 0;
+		margin-left: {{$:/themes/tiddlywiki/vanilla/metrics/storyleft}};
+		margin-right: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}};
+	}
+
+	.tc-tiddler-frame {
+		width: 100%;
+	}
+
+	.tc-sidebar-scrollable {
+		left: auto;
+		bottom: 0;
+		right: 0;
+		width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarwidth}};
+	}
+
+	body.tc-body .tc-storyview-zoomin-tiddler {
+		width: 100%;
+		width: calc(100% - 42px);
+	}
+
+&quot;&quot;&quot; hiddenSidebarText:&quot;&quot;&quot;
+
+	.tc-story-river {
+		padding-right: 3em;
+		margin-right: 0;
+	}
+
+	body.tc-body .tc-storyview-zoomin-tiddler {
+		width: 100%;
+		width: calc(100% - 84px);
+	}
+
+&quot;&quot;&quot;&gt;&gt;
+
+}
+
+/*
+** Toolbar buttons
+*/
+
+.tc-page-controls svg.tc-image-new-button {
+  fill: &lt;&lt;colour toolbar-new-button&gt;&gt;;
+}
+
+.tc-page-controls svg.tc-image-options-button {
+  fill: &lt;&lt;colour toolbar-options-button&gt;&gt;;
+}
+
+.tc-page-controls svg.tc-image-save-button {
+  fill: &lt;&lt;colour toolbar-save-button&gt;&gt;;
+}
+
+.tc-tiddler-controls button svg.tc-image-info-button {
+  fill: &lt;&lt;colour toolbar-info-button&gt;&gt;;
+}
+
+.tc-tiddler-controls button svg.tc-image-edit-button {
+  fill: &lt;&lt;colour toolbar-edit-button&gt;&gt;;
+}
+
+.tc-tiddler-controls button svg.tc-image-close-button {
+  fill: &lt;&lt;colour toolbar-close-button&gt;&gt;;
+}
+
+.tc-tiddler-controls button svg.tc-image-delete-button {
+  fill: &lt;&lt;colour toolbar-delete-button&gt;&gt;;
+}
+
+.tc-tiddler-controls button svg.tc-image-cancel-button {
+  fill: &lt;&lt;colour toolbar-cancel-button&gt;&gt;;
+}
+
+.tc-tiddler-controls button svg.tc-image-done-button {
+  fill: &lt;&lt;colour toolbar-done-button&gt;&gt;;
+}
+
+/*
+** Tiddler edit mode
+*/
+
+.tc-tiddler-edit-frame em.tc-edit {
+	color: &lt;&lt;colour muted-foreground&gt;&gt;;
+	font-style: normal;
+}
+
+.tc-edit-type-dropdown a.tc-tiddlylink-missing {
+	font-style: normal;
+}
+
+.tc-type-selector .tc-edit-typeeditor {
+	width: auto;
+}
+
+.tc-type-selector-dropdown-wrapper {
+	display: inline-block;
+}
+
+&lt;&lt;set-type-selector-min-width&gt;&gt;
+
+.tc-edit-tags {
+	border: 1px solid &lt;&lt;colour tiddler-editor-border&gt;&gt;;
+	padding: 4px 8px 4px 8px;
+}
+
+.tc-edit-add-tag {
+	display: inline-block;
+}
+
+.tc-edit-add-tag .tc-add-tag-name input {
+	width: 50%;
+}
+
+.tc-edit-add-tag .tc-keyboard {
+	display:inline;
+}
+
+.tc-edit-tags .tc-tag-label {
+	display: inline-block;
+}
+
+.tc-edit-tags-list {
+	margin: 14px 0 14px 0;
+}
+
+.tc-remove-tag-button {
+	padding-left: 4px;
+}
+
+.tc-tiddler-preview {
+	overflow: auto;
+}
+
+.tc-tiddler-preview-preview {
+	float: right;
+	width: 49%;
+	border: 1px solid &lt;&lt;colour tiddler-editor-border&gt;&gt;;
+	margin: 4px 0 3px 3px;
+	padding: 3px 3px 3px 3px;
+}
+
+&lt;&lt;if-editor-height-fixed then:&quot;&quot;&quot;
+
+.tc-tiddler-preview-preview {
+	overflow-y: scroll;
+	height: {{$:/config/TextEditor/EditorHeight/Height}};
+}
+
+&quot;&quot;&quot;&gt;&gt;
+
+.tc-tiddler-frame .tc-tiddler-preview .tc-edit-texteditor {
+	width: 49%;
+}
+
+.tc-tiddler-frame .tc-tiddler-preview canvas.tc-edit-bitmapeditor {
+	max-width: 49%;
+}
+
+.tc-edit-fields {
+	width: 100%;
+}
+
+.tc-edit-fields.tc-edit-fields-small {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.tc-edit-fields table, .tc-edit-fields tr, .tc-edit-fields td {
+	border: none;
+	padding: 4px;
+}
+
+.tc-edit-fields &gt; tbody &gt; .tc-edit-field:nth-child(odd) {
+	background-color: &lt;&lt;colour tiddler-editor-fields-odd&gt;&gt;;
+}
+
+.tc-edit-fields &gt; tbody &gt; .tc-edit-field:nth-child(even) {
+	background-color: &lt;&lt;colour tiddler-editor-fields-even&gt;&gt;;
+}
+
+.tc-edit-field-name {
+	text-align: right;
+}
+
+.tc-edit-field-value input {
+	width: 100%;
+}
+
+.tc-edit-field-remove {
+}
+
+.tc-edit-field-remove svg {
+	height: 1em;
+	width: 1em;
+	fill: &lt;&lt;colour muted-foreground&gt;&gt;;
+	vertical-align: middle;
+}
+
+.tc-edit-field-add-name-wrapper input.tc-edit-texteditor {
+	width: auto;
+}
+
+.tc-edit-field-add-name-wrapper {
+	display: inline-block;
+}
+
+.tc-edit-field-add-value {
+	display: inline-block;
+}
+
+@media (min-width: &lt;&lt;sidebarbreakpoint&gt;&gt;) {
+
+	.tc-edit-field-add-value {
+		width: 35%;
+	}
+
+}
+
+.tc-edit-field-add-button {
+	display: inline-block;
+	width: 10%;
+}
+
+/*
+** Storyview Classes
+*/
+
+.tc-viewswitcher .tc-image-button {
+	margin-right: .3em;
+}
+
+.tc-storyview-zoomin-tiddler {
+	position: absolute;
+	display: block;
+	width: 100%;
+}
+
+@media (min-width: &lt;&lt;sidebarbreakpoint&gt;&gt;) {
+
+	.tc-storyview-zoomin-tiddler {
+		width: calc(100% - 84px);
+	}
+
+}
+
+/*
+** Dropdowns
+*/
+
+.tc-btn-dropdown {
+	text-align: left;
+}
+
+.tc-btn-dropdown svg, .tc-btn-dropdown img {
+	height: 1em;
+	width: 1em;
+	fill: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-drop-down-wrapper {
+	position: relative;
+}
+
+.tc-drop-down {
+	min-width: 380px;
+	border: 1px solid &lt;&lt;colour dropdown-border&gt;&gt;;
+	background-color: &lt;&lt;colour dropdown-background&gt;&gt;;
+	padding: 7px 0 7px 0;
+	margin: 4px 0 0 0;
+	white-space: nowrap;
+	text-shadow: none;
+	line-height: 1.4;
+}
+
+.tc-drop-down .tc-drop-down {
+	margin-left: 14px;
+}
+
+.tc-drop-down button svg, .tc-drop-down a svg  {
+	fill: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+.tc-drop-down button.tc-btn-invisible:hover svg {
+	fill: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-drop-down .tc-drop-down-info {
+	padding-left: 14px;
+}
+
+.tc-drop-down p {
+	padding: 0 14px 0 14px;
+}
+
+.tc-drop-down svg {
+	width: 1em;
+	height: 1em;
+}
+
+.tc-drop-down img {
+	width: 1em;
+}
+
+.tc-drop-down a, .tc-drop-down button {
+	display: block;
+	padding: 0 14px 0 14px;
+	width: 100%;
+	text-align: left;
+	color: &lt;&lt;colour foreground&gt;&gt;;
+	line-height: 1.4;
+}
+
+.tc-drop-down .tc-tab-set .tc-tab-buttons button {
+	display: inline-block;
+    width: auto;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.tc-drop-down .tc-prompt {
+	padding: 0 14px;
+}
+
+.tc-drop-down .tc-chooser {
+	border: none;
+}
+
+.tc-drop-down .tc-chooser .tc-swatches-horiz {
+	font-size: 0.4em;
+	padding-left: 1.2em;
+}
+
+.tc-drop-down .tc-file-input-wrapper {
+	width: 100%;
+}
+
+.tc-drop-down .tc-file-input-wrapper button {
+	color: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+.tc-drop-down a:hover, .tc-drop-down button:hover, .tc-drop-down .tc-file-input-wrapper:hover button {
+	color: &lt;&lt;colour tiddler-link-background&gt;&gt;;
+	background-color: &lt;&lt;colour tiddler-link-foreground&gt;&gt;;
+	text-decoration: none;
+}
+
+.tc-drop-down .tc-tab-buttons button {
+	background-color: &lt;&lt;colour dropdown-tab-background&gt;&gt;;
+}
+
+.tc-drop-down .tc-tab-buttons button.tc-tab-selected {
+	background-color: &lt;&lt;colour dropdown-tab-background-selected&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour dropdown-tab-background-selected&gt;&gt;;
+}
+
+.tc-drop-down-bullet {
+	display: inline-block;
+	width: 0.5em;
+}
+
+.tc-drop-down .tc-tab-contents a {
+	padding: 0 0.5em 0 0.5em;
+}
+
+.tc-block-dropdown-wrapper {
+	position: relative;
+}
+
+.tc-block-dropdown {
+	position: absolute;
+	min-width: 220px;
+	border: 1px solid &lt;&lt;colour dropdown-border&gt;&gt;;
+	background-color: &lt;&lt;colour dropdown-background&gt;&gt;;
+	padding: 7px 0;
+	margin: 4px 0 0 0;
+	white-space: nowrap;
+	z-index: 1000;
+	text-shadow: none;
+}
+
+.tc-block-dropdown.tc-search-drop-down {
+	margin-left: -12px;
+}
+
+.tc-block-dropdown a {
+	display: block;
+	padding: 4px 14px 4px 14px;
+}
+
+.tc-block-dropdown.tc-search-drop-down a {
+	display: block;
+	padding: 0px 10px 0px 10px;
+}
+
+.tc-drop-down .tc-dropdown-item-plain,
+.tc-block-dropdown .tc-dropdown-item-plain {
+	padding: 4px 14px 4px 7px;
+}
+
+.tc-drop-down .tc-dropdown-item,
+.tc-block-dropdown .tc-dropdown-item {
+	padding: 4px 14px 4px 7px;
+	color: &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-block-dropdown a.tc-tiddlylink:hover {
+	color: &lt;&lt;colour tiddler-link-background&gt;&gt;;
+	background-color: &lt;&lt;colour tiddler-link-foreground&gt;&gt;;
+	text-decoration: none;
+}
+
+.tc-search-results {
+	padding: 0 7px 0 7px;
+}
+
+.tc-image-chooser, .tc-colour-chooser {
+	white-space: normal;
+}
+
+.tc-image-chooser a,
+.tc-colour-chooser a {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+}
+
+.tc-image-chooser a {
+	border: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	padding: 2px;
+	margin: 2px;
+	width: 4em;
+	height: 4em;
+}
+
+.tc-colour-chooser a {
+	padding: 3px;
+	width: 2em;
+	height: 2em;
+	vertical-align: middle;
+}
+
+.tc-image-chooser a:hover,
+.tc-colour-chooser a:hover {
+	background: &lt;&lt;colour primary&gt;&gt;;
+	padding: 0px;
+	border: 3px solid &lt;&lt;colour primary&gt;&gt;;
+}
+
+.tc-image-chooser a svg,
+.tc-image-chooser a img {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	max-width: 3.5em;
+	max-height: 3.5em;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/*
+** Modals
+*/
+
+.tc-modal-wrapper {
+	position: fixed;
+	overflow: auto;
+	overflow-y: scroll;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 900;
+}
+
+.tc-modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: &lt;&lt;colour modal-backdrop&gt;&gt;;
+}
+
+.tc-modal {
+	z-index: 1100;
+	background-color: &lt;&lt;colour modal-background&gt;&gt;;
+	border: 1px solid &lt;&lt;colour modal-border&gt;&gt;;
+}
+
+@media (max-width: 55em) {
+	.tc-modal {
+		position: fixed;
+		top: 1em;
+		left: 1em;
+		right: 1em;
+	}
+
+	.tc-modal-body {
+		overflow-y: auto;
+		max-height: 400px;
+		max-height: 60vh;
+	}
+}
+
+@media (min-width: 55em) {
+	.tc-modal {
+		position: fixed;
+		top: 2em;
+		left: 25%;
+		width: 50%;
+	}
+
+	.tc-modal-body {
+		overflow-y: auto;
+		max-height: 400px;
+		max-height: 60vh;
+	}
+}
+
+.tc-modal-header {
+	padding: 9px 15px;
+	border-bottom: 1px solid &lt;&lt;colour modal-header-border&gt;&gt;;
+}
+
+.tc-modal-header h3 {
+	margin: 0;
+	line-height: 30px;
+}
+
+.tc-modal-header img, .tc-modal-header svg {
+	width: 1em;
+	height: 1em;
+}
+
+.tc-modal-body {
+	padding: 15px;
+}
+
+.tc-modal-footer {
+	padding: 14px 15px 15px;
+	margin-bottom: 0;
+	text-align: right;
+	background-color: &lt;&lt;colour modal-footer-background&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour modal-footer-border&gt;&gt;;
+}
+
+
+/*
+** Centered modals
+*/
+.tc-modal-centered .tc-modal {
+	width: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) !important;
+}
+
+/*
+** Notifications
+*/
+
+.tc-notification {
+	position: fixed;
+	top: 14px;
+	right: 42px;
+	z-index: 1300;
+	max-width: 280px;
+	padding: 0 14px 0 14px;
+	background-color: &lt;&lt;colour notification-background&gt;&gt;;
+	border: 1px solid &lt;&lt;colour notification-border&gt;&gt;;
+}
+
+/*
+** Tabs
+*/
+
+.tc-tab-set.tc-vertical {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.tc-tab-buttons {
+	font-size: 0.85em;
+	padding-top: 1em;
+	margin-bottom: -2px;
+}
+
+.tc-tab-buttons.tc-vertical  {
+	z-index: 100;
+	display: block;
+	padding-top: 14px;
+	vertical-align: top;
+	text-align: right;
+	margin-bottom: inherit;
+	margin-right: -1px;
+	max-width: 33%;
+	-webkit-flex: 0 0 auto;
+	flex: 0 0 auto;
+}
+
+.tc-tab-buttons button.tc-tab-selected {
+	color: &lt;&lt;colour tab-foreground-selected&gt;&gt;;
+	background-color: &lt;&lt;colour tab-background-selected&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour tab-border-selected&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour tab-border-selected&gt;&gt;;
+	border-right: 1px solid &lt;&lt;colour tab-border-selected&gt;&gt;;
+}
+
+.tc-tab-buttons button {
+	color: &lt;&lt;colour tab-foreground&gt;&gt;;
+	padding: 3px 5px 3px 5px;
+	margin-right: 0.3em;
+	font-weight: 300;
+	border: none;
+	background: inherit;
+	background-color: &lt;&lt;colour tab-background&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-right: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.tc-tab-buttons.tc-vertical button {
+	display: block;
+	width: 100%;
+	margin-top: 3px;
+	margin-right: 0;
+	text-align: right;
+	background-color: &lt;&lt;colour tab-background&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-right: none;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.tc-tab-buttons.tc-vertical button.tc-tab-selected {
+	background-color: &lt;&lt;colour tab-background-selected&gt;&gt;;
+	border-right: 1px solid &lt;&lt;colour tab-background-selected&gt;&gt;;
+}
+
+.tc-tab-divider {
+	border-top: 1px solid &lt;&lt;colour tab-divider&gt;&gt;;
+}
+
+.tc-tab-divider.tc-vertical  {
+	display: none;
+}
+
+.tc-tab-content {
+	margin-top: 14px;
+}
+
+.tc-tab-content.tc-vertical  {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 0;
+	padding-left: 14px;
+	border-left: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	-webkit-flex: 1 0 70%;
+	flex: 1 0 70%;
+	overflow: auto;
+}
+
+.tc-sidebar-lists .tc-tab-buttons {
+	margin-bottom: -1px;
+}
+
+.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+	background-color: &lt;&lt;colour sidebar-tab-background-selected&gt;&gt;;
+	color: &lt;&lt;colour sidebar-tab-foreground-selected&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour sidebar-tab-border-selected&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour sidebar-tab-border-selected&gt;&gt;;
+	border-right: 1px solid &lt;&lt;colour sidebar-tab-border-selected&gt;&gt;;
+}
+
+.tc-sidebar-lists .tc-tab-buttons button {
+	background-color: &lt;&lt;colour sidebar-tab-background&gt;&gt;;
+	color: &lt;&lt;colour sidebar-tab-foreground&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour sidebar-tab-border&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour sidebar-tab-border&gt;&gt;;
+	border-right: 1px solid &lt;&lt;colour sidebar-tab-border&gt;&gt;;
+}
+
+.tc-sidebar-lists .tc-tab-divider {
+	border-top: 1px solid &lt;&lt;colour sidebar-tab-divider&gt;&gt;;
+}
+
+.tc-more-sidebar &gt; .tc-tab-set &gt; .tc-tab-buttons &gt; button {
+	display: block;
+	width: 100%;
+	background-color: &lt;&lt;colour sidebar-tab-background&gt;&gt;;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	border-right: 1px solid #ccc;
+	margin-bottom: inherit;
+}
+
+.tc-more-sidebar &gt; .tc-tab-set &gt; .tc-tab-buttons &gt; button.tc-tab-selected {
+	background-color: &lt;&lt;colour sidebar-tab-background-selected&gt;&gt;;
+	border: none;
+}
+
+/*
+** Manager
+*/
+
+.tc-manager-wrapper {
+	
+}
+
+.tc-manager-controls {
+	
+}
+
+.tc-manager-control {
+	margin: 0.5em 0;
+}
+
+.tc-manager-list {
+	width: 100%;
+	border-top: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	border-right: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-manager-list-item {
+
+}
+
+.tc-manager-list-item-heading {
+    display: block;
+    width: 100%;
+    text-align: left;	
+	border-bottom: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	padding: 3px;
+}
+
+.tc-manager-list-item-heading-selected {
+	font-weight: bold;
+	color: &lt;&lt;colour background&gt;&gt;;
+	fill: &lt;&lt;colour background&gt;&gt;;
+	background-color: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+.tc-manager-list-item-heading:hover {
+	background: &lt;&lt;colour primary&gt;&gt;;
+	color: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-manager-list-item-content {
+	display: flex;
+}
+
+.tc-manager-list-item-content-sidebar {
+    flex: 1 0;
+    background: &lt;&lt;colour tiddler-editor-background&gt;&gt;;
+    border-right: 0.5em solid &lt;&lt;colour muted-foreground&gt;&gt;;
+    border-bottom: 0.5em solid &lt;&lt;colour muted-foreground&gt;&gt;;
+    white-space: nowrap;
+}
+
+.tc-manager-list-item-content-item-heading {
+	display: block;
+	width: 100%;
+	text-align: left;
+    background: &lt;&lt;colour muted-foreground&gt;&gt;;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	font-weight: bold;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.tc-manager-list-item-content-item-body {
+	padding: 0 0.5em 0 0.5em;
+}
+
+.tc-manager-list-item-content-item-body &gt; pre {
+	margin: 0.5em 0 0.5em 0;
+	border: none;
+	background: inherit;
+}
+
+.tc-manager-list-item-content-tiddler {
+    flex: 3 1;
+    border-left: 0.5em solid &lt;&lt;colour muted-foreground&gt;&gt;;
+    border-right: 0.5em solid &lt;&lt;colour muted-foreground&gt;&gt;;
+    border-bottom: 0.5em solid &lt;&lt;colour muted-foreground&gt;&gt;;
+}
+
+.tc-manager-list-item-content-item-body &gt; table {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tc-manager-list-item-content-item-body &gt; table td {
+	border: none;
+}
+
+.tc-manager-icon-editor &gt; button {
+	width: 100%;
+}
+
+.tc-manager-icon-editor &gt; button &gt; svg,
+.tc-manager-icon-editor &gt; button &gt; button {
+	width: 100%;
+	height: auto;
+}
+
+/*
+** Import table
+*/
+
+.tc-import-table {
+	width: 100%;
+}
+
+.tc-import-table svg.tc-image-edit-button {
+	max-width: unset;
+}
+
+.tc-import-table th:first-of-type {
+	width: 10%;
+}
+
+.tc-import-table th:last-of-type {
+	width: 30%;
+}
+
+.tc-import-table .tc-row-disabled {
+	background: &lt;&lt;colour very-muted-foreground&gt;&gt;10;
+	opacity: 0.8;
+}
+
+.tc-import-table .tc-row-warning {
+	background: &lt;&lt;colour diff-delete-background&gt;&gt;50;
+}
+
+/*
+** Alerts
+*/
+
+.tc-alerts {
+	position: fixed;
+	top: 28px;
+	left: 0;
+	right: 0;
+	max-width: 50%;
+	z-index: 20000;
+}
+
+.tc-alert {
+	position: relative;
+	margin: 14px;
+	padding: 7px;
+	border: 1px solid &lt;&lt;colour alert-border&gt;&gt;;
+	background-color: &lt;&lt;colour alert-background&gt;&gt;;
+}
+
+.tc-alert-toolbar {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+    line-height: 0;
+}
+
+.tc-alert-toolbar svg {
+	fill: &lt;&lt;colour alert-muted-foreground&gt;&gt;;
+}
+
+.tc-alert-subtitle {
+	color: &lt;&lt;colour alert-muted-foreground&gt;&gt;;
+	font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.tc-alert-body &gt; p {
+	margin: 0;
+}
+
+.tc-alert-highlight {
+	color: &lt;&lt;colour alert-highlight&gt;&gt;;
+}
+
+@media (min-width: &lt;&lt;sidebarbreakpoint&gt;&gt;) {
+
+	.tc-static-alert {
+		position: relative;
+	}
+
+	.tc-static-alert-inner {
+		position: absolute;
+		z-index: 100;
+	}
+
+}
+
+.tc-static-alert-inner {
+	padding: 0 2px 2px 42px;
+	color: &lt;&lt;colour static-alert-foreground&gt;&gt;;
+}
+
+/*
+** Floating drafts list
+*/
+
+.tc-drafts-list {
+	z-index: 2000;
+	position: fixed;
+	font-size: 0.8em;
+	left: 0;
+	bottom: 0;
+}
+
+.tc-drafts-list a {
+	margin: 0 0.5em;
+	padding: 4px 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border: 1px solid &lt;&lt;colour background&gt;&gt;;
+	border-bottom-none;
+	background: &lt;&lt;colour dirty-indicator&gt;&gt;;
+	color: &lt;&lt;colour background&gt;&gt;;
+	fill: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-drafts-list a:hover {
+	text-decoration: none;
+	background: &lt;&lt;colour foreground&gt;&gt;;
+	color: &lt;&lt;colour background&gt;&gt;;
+	fill: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-drafts-list a svg {
+	width: 1em;
+	height: 1em;
+	vertical-align: text-bottom;
+}
+
+/*
+** Control panel
+*/
+
+.tc-control-panel td {
+	padding: 4px;
+}
+
+.tc-control-panel table, .tc-control-panel table input, .tc-control-panel table textarea {
+	width: 100%;
+}
+
+.tc-plugin-info {
+	display: flex;
+	border: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	fill: &lt;&lt;colour muted-foreground&gt;&gt;;
+	background-color: &lt;&lt;colour background&gt;&gt;;
+	margin: 0.5em 0 0.5em 0;
+	padding: 4px;
+    align-items: center;
+}
+
+.tc-plugin-info-sub-plugins .tc-plugin-info {
+    margin: 0.5em;
+	background: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-plugin-info-sub-plugin-indicator {
+	margin: -16px 1em 0 2em;
+}
+
+.tc-plugin-info-sub-plugin-indicator button {
+	color: &lt;&lt;colour background&gt;&gt;;
+	background: &lt;&lt;colour foreground&gt;&gt;;
+	border-radius: 8px;
+    padding: 2px 7px;
+    font-size: 0.75em;
+}
+
+.tc-plugin-info-sub-plugins .tc-plugin-info-dropdown {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.tc-plugin-info-disabled {
+	background: -webkit-repeating-linear-gradient(45deg, #ff0, #ff0 10px, #eee 10px, #eee 20px);
+	background: repeating-linear-gradient(45deg, #ff0, #ff0 10px, #eee 10px, #eee 20px);
+}
+
+.tc-plugin-info-disabled:hover {
+	background: -webkit-repeating-linear-gradient(45deg, #aa0, #aa0 10px, #888 10px, #888 20px);
+	background: repeating-linear-gradient(45deg, #aa0, #aa0 10px, #888 10px, #888 20px);
+}
+
+a.tc-tiddlylink.tc-plugin-info:hover {
+	text-decoration: none;
+	background-color: &lt;&lt;colour primary&gt;&gt;;
+	color: &lt;&lt;colour background&gt;&gt;;
+	fill: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+a.tc-tiddlylink.tc-plugin-info:hover &gt; .tc-plugin-info-chunk &gt; svg {
+	fill: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-plugin-info-chunk {
+    margin: 2px;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-toggle {
+	flex-grow: 0;
+	flex-shrink: 0;
+	line-height: 1;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-icon {
+	flex-grow: 0;
+	flex-shrink: 0;
+	line-height: 1;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-description {
+	flex-grow: 1;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-buttons {
+	font-size: 0.8em;
+	line-height: 1.2;
+	flex-grow: 0;
+	flex-shrink: 0;
+    text-align: right;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-description h1 {
+	font-size: 1em;
+	line-height: 1.2;
+	margin: 2px 0 2px 0;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-description h2 {
+	font-size: 0.8em;
+	line-height: 1.2;
+	margin: 2px 0 2px 0;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-description div {
+	font-size: 0.7em;
+	line-height: 1.2;
+	margin: 2px 0 2px 0;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-toggle img, .tc-plugin-info-chunk.tc-plugin-info-toggle svg {
+	width: 1em;
+	height: 1em;
+}
+
+.tc-plugin-info-chunk.tc-plugin-info-icon img, .tc-plugin-info-chunk.tc-plugin-info-icon svg {
+	width: 2em;
+	height: 2em;
+}
+
+.tc-plugin-info-dropdown {
+	border: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	background: &lt;&lt;colour background&gt;&gt;;
+	margin-top: -8px;
+}
+
+.tc-plugin-info-dropdown-message {
+	background: &lt;&lt;colour message-background&gt;&gt;;
+	padding: 0.5em 1em 0.5em 1em;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.tc-plugin-info-dropdown-body {
+	padding: 1em 1em 0 1em;
+	background: &lt;&lt;colour background&gt;&gt;;
+}
+
+.tc-plugin-info-sub-plugins {
+	padding: 0.5em;
+    margin: 0 1em 1em 1em;
+	background: &lt;&lt;colour notification-background&gt;&gt;;
+}
+
+.tc-install-plugin {
+	font-weight: bold;
+	background: green;
+	color: white;
+	fill: white;
+	border-radius: 4px;
+	padding: 3px;
+}
+
+.tc-install-plugin.tc-reinstall-downgrade {
+	background: red;
+}
+
+.tc-install-plugin.tc-reinstall {
+	background: blue;
+}
+
+.tc-install-plugin.tc-reinstall-upgrade {
+	background: orange;
+}
+
+.tc-check-list {
+	line-height: 2em;
+}
+
+.tc-check-list .tc-image-button {
+	height: 1.5em;
+}
+
+/*
+** Message boxes
+*/
+
+.tc-message-box {
+	border: 1px solid &lt;&lt;colour message-border&gt;&gt;;
+	background: &lt;&lt;colour message-background&gt;&gt;;
+	padding: 0px 21px 0px 21px;
+	font-size: 12px;
+	line-height: 18px;
+	color: &lt;&lt;colour message-foreground&gt;&gt;;
+}
+
+.tc-message-box svg {
+	width: 1em;
+	height: 1em;
+    vertical-align: text-bottom;
+}
+
+/*
+** Pictures
+*/
+
+.tc-bordered-image {
+	border: 1px solid &lt;&lt;colour muted-foreground&gt;&gt;;
+	padding: 5px;
+	margin: 5px;
+}
+
+/*
+** Floats
+*/
+
+.tc-float-right {
+	float: right;
+}
+
+/*
+** Chooser
+*/
+
+.tc-chooser {
+	border-right: 1px solid &lt;&lt;colour table-header-background&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour table-header-background&gt;&gt;;
+}
+
+
+.tc-chooser-item {
+	border-bottom: 1px solid &lt;&lt;colour table-header-background&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour table-header-background&gt;&gt;;
+	padding: 2px 4px 2px 14px;
+}
+
+.tc-drop-down .tc-chooser-item {
+	padding: 2px;
+}
+
+.tc-chosen,
+.tc-chooser-item:hover {
+	background-color: &lt;&lt;colour table-header-background&gt;&gt;;
+	border-color: &lt;&lt;colour table-footer-background&gt;&gt;;
+}
+
+.tc-chosen .tc-tiddlylink {
+	cursor:default;
+}
+
+.tc-chooser-item .tc-tiddlylink {
+	display: block;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.tc-chooser-item:hover .tc-tiddlylink:hover {
+	text-decoration: none;
+}
+
+.tc-drop-down .tc-chosen .tc-tiddlylink,
+.tc-drop-down .tc-chooser-item .tc-tiddlylink:hover {
+	color: &lt;&lt;colour foreground&gt;&gt;;
+}
+
+.tc-chosen &gt; .tc-tiddlylink:before {
+	margin-left: -10px;
+	position: relative;
+	content: &quot;» &quot;;
+}
+
+.tc-chooser-item svg,
+.tc-chooser-item img{
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+}
+
+.tc-language-chooser .tc-image-button img {
+	width: 2em;
+	vertical-align: -0.15em;
+}
+
+/*
+** Palette swatches
+*/
+
+.tc-swatches-horiz {
+}
+
+.tc-swatches-horiz .tc-swatch {
+	display: inline-block;
+}
+
+.tc-swatch {
+	width: 2em;
+	height: 2em;
+	margin: 0.4em;
+	border: 1px solid #888;
+}
+
+input.tc-palette-manager-colour-input {
+	width: 100%;
+	padding: 0;
+}
+
+/*
+** Table of contents
+*/
+
+.tc-sidebar-lists .tc-table-of-contents {
+	white-space: nowrap;
+}
+
+.tc-table-of-contents button {
+	color: &lt;&lt;colour sidebar-foreground&gt;&gt;;
+}
+
+.tc-table-of-contents svg {
+	width: 0.7em;
+	height: 0.7em;
+	vertical-align: middle;
+	fill: &lt;&lt;colour sidebar-foreground&gt;&gt;;
+}
+
+.tc-table-of-contents ol {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.tc-table-of-contents ol ol {
+	padding-left: 1em;
+}
+
+.tc-table-of-contents li {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+.tc-table-of-contents li a {
+	font-weight: bold;
+}
+
+.tc-table-of-contents li li {
+	font-size: 0.95em;
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+.tc-table-of-contents li li a {
+	font-weight: normal;
+}
+
+.tc-table-of-contents li li li {
+	font-size: 0.95em;
+	font-weight: 200;
+	line-height: 1.5;
+}
+
+.tc-table-of-contents li li li li {
+	font-size: 0.95em;
+	font-weight: 200;
+}
+
+.tc-tabbed-table-of-contents {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents {
+	z-index: 100;
+	display: inline-block;
+	padding-left: 1em;
+	max-width: 50%;
+	-webkit-flex: 0 0 auto;
+	flex: 0 0 auto;
+	background: &lt;&lt;colour tab-background&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-top: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item &gt; a,
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected &gt; a {
+	display: block;
+	padding: 0.12em 1em 0.12em 0.25em;
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item &gt; a {
+	border-top: 1px solid &lt;&lt;colour tab-background&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour tab-background&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour tab-background&gt;&gt;;
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item &gt; a:hover {
+	text-decoration: none;
+	border-top: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	background: &lt;&lt;colour tab-border&gt;&gt;;
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected &gt; a {
+	border-top: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-left: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	border-bottom: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	background: &lt;&lt;colour background&gt;&gt;;
+	margin-right: -1px;
+}
+
+.tc-tabbed-table-of-contents .tc-table-of-contents .toc-item-selected &gt; a:hover {
+	text-decoration: none;
+}
+
+.tc-tabbed-table-of-contents .tc-tabbed-table-of-contents-content {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	border: 1px solid &lt;&lt;colour tab-border&gt;&gt;;
+	-webkit-flex: 1 0 50%;
+	flex: 1 0 50%;
+}
+
+/*
+** Dirty indicator
+*/
+
+body.tc-dirty span.tc-dirty-indicator, body.tc-dirty span.tc-dirty-indicator svg {
+	fill: &lt;&lt;colour dirty-indicator&gt;&gt;;
+	color: &lt;&lt;colour dirty-indicator&gt;&gt;;
+}
+
+/*
+** File inputs
+*/
+
+.tc-file-input-wrapper {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.tc-file-input-wrapper input[type=file] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 999px;
+	max-width: 100%;
+	max-height: 100%;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: pointer;
+	display: inline-block;
+}
+
+::-webkit-file-upload-button {
+	cursor:pointer;
+}
+
+/*
+** Thumbnail macros
+*/
+
+.tc-thumbnail-wrapper {
+	position: relative;
+	display: inline-block;
+	margin: 6px;
+	vertical-align: top;
+}
+
+.tc-thumbnail-right-wrapper {
+	float:right;
+	margin: 0.5em 0 0.5em 0.5em;
+}
+
+.tc-thumbnail-image {
+	text-align: center;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.tc-thumbnail-image svg,
+.tc-thumbnail-image img {
+	filter: alpha(opacity=1);
+	opacity: 1;
+	min-width: 100%;
+	min-height: 100%;
+	max-width: 100%;
+}
+
+.tc-thumbnail-wrapper:hover .tc-thumbnail-image svg,
+.tc-thumbnail-wrapper:hover .tc-thumbnail-image img {
+	filter: alpha(opacity=0.8);
+	opacity: 0.8;
+}
+
+.tc-thumbnail-background {
+	position: absolute;
+	border-radius: 3px;
+}
+
+.tc-thumbnail-icon svg,
+.tc-thumbnail-icon img {
+	width: 3em;
+	height: 3em;
+	&lt;&lt;filter &quot;drop-shadow(2px 2px 4px rgba(0,0,0,0.3))&quot;&gt;&gt;
+}
+
+.tc-thumbnail-wrapper:hover .tc-thumbnail-icon svg,
+.tc-thumbnail-wrapper:hover .tc-thumbnail-icon img {
+	fill: #fff;
+	&lt;&lt;filter &quot;drop-shadow(3px 3px 4px rgba(0,0,0,0.6))&quot;&gt;&gt;
+}
+
+.tc-thumbnail-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tc-thumbnail-caption {
+	position: absolute;
+	background-color: #777;
+	color: #fff;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	filter: alpha(opacity=0.9);
+	opacity: 0.9;
+	line-height: 1.4;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.tc-thumbnail-wrapper:hover .tc-thumbnail-caption {
+	filter: alpha(opacity=1);
+	opacity: 1;
+}
+
+/*
+** Diffs
+*/
+
+.tc-diff-equal {
+	background-color: &lt;&lt;colour diff-equal-background&gt;&gt;;
+	color: &lt;&lt;colour diff-equal-foreground&gt;&gt;;
+}
+
+.tc-diff-insert {
+	background-color: &lt;&lt;colour diff-insert-background&gt;&gt;;
+	color: &lt;&lt;colour diff-insert-foreground&gt;&gt;;
+}
+
+.tc-diff-delete {
+	background-color: &lt;&lt;colour diff-delete-background&gt;&gt;;
+	color: &lt;&lt;colour diff-delete-foreground&gt;&gt;;
+}
+
+.tc-diff-invisible {
+	background-color: &lt;&lt;colour diff-invisible-background&gt;&gt;;
+	color: &lt;&lt;colour diff-invisible-foreground&gt;&gt;;
+}
+
+.tc-diff-tiddlers th {
+	text-align: right;
+	background: &lt;&lt;colour background&gt;&gt;;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.tc-diff-tiddlers pre {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+/*
+** Errors
+*/
+
+.tc-error {
+	background: #f00;
+	color: #fff;
+}
+
+/*
+** Tree macro
+*/
+
+.tc-tree div {
+    	padding-left: 14px;
+}
+
+.tc-tree ol {
+    	list-style-type: none;
+    	padding-left: 0;
+    	margin-top: 0;
+}
+
+.tc-tree ol ol {
+    	padding-left: 1em;    
+}
+
+.tc-tree button { 
+    	color: #acacac;
+}
+
+.tc-tree svg {
+     	fill: #acacac;
+}
+
+.tc-tree span svg {
+    	width: 1em;
+    	height: 1em;
+    	vertical-align: baseline;
+}
+
+.tc-tree li span {
+    	color: lightgray;
+}
+
+select {
+        color: &lt;&lt;colour select-tag-foreground&gt;&gt;;
+        background: &lt;&lt;colour select-tag-background&gt;&gt;;
+}
+
+/*
+** Utility classes for SVG icons
+*/
+
+.tc-fill-background {
+	fill: &lt;&lt;colour background&gt;&gt;;
+}
+
+/*
+** Flexbox utility classes
+*/
+
+.tc-flex {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.tc-flex-column {
+	flex-direction: column;
+}
+
+.tc-flex-row {
+	flex-direction: row;
+}
+
+.tc-flex-grow-1 {
+	flex-grow: 1;
+}
+
+.tc-flex-grow-2 {
+	flex-grow: 2;
+}
+
+/*
+** Other utility classes
+*/
+
+.tc-small-gap {
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.tc-small-gap-left {
+	margin-left: .5em;
+}
+
+.tc-small-gap-right {
+	margin-right: .5em;
+}
+
+.tc-big-gap {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.tc-big-gap-left {
+	margin-left: 1em;
+}
+
+.tc-big-gap-right {
+	margin-right: 1em;
+}
+
+.tc-word-break {
+	word-break: break-all;
+}
+</pre>
+</div>
 <div created="20201227164124876" modified="20201227164124876" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
 </div>
@@ -10703,15 +13867,6 @@ $_$
     color: #073642;
 }</pre>
 </div>
-<div created="20210112084311057" creator="Provun" modified="20210112185559396" modifier="Provun" tags="$:/tags/PageControls" title="$:/user/ui/Buttons/publish">
-<pre>\whitespace trim
-&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;
-&lt;$action-setfield $tiddler=&quot;$:/GitHub/Username&quot; text=&quot;warrook&quot;/&gt;
-&lt;$action-sendmessage $message=&quot;tm-save-wiki&quot; $param=&quot;$:/user/SecretTemplate&quot; filename=&quot;index.html&quot;/&gt;
-&lt;$action-setfield $tiddler=&quot;$:/GitHub/Username&quot; text=&quot;&quot;/&gt;
-{{$:/core/images/github}}
-&lt;/$button&gt;</pre>
-</div>
 <div created="20210112063610474" creator="Provun" modified="20210112202227464" modifier="Provun" tags="" title="Accomplishments">
 <pre>| !Date &lt;br /&gt;([[D/M/Y|Calendar]]) | !Event |
 | 13/15/1113 |The party returns to [[Pharos]] with a golden orchid, from the Haplic Forest in [[Southeast Desolation]] near [[Tinal]].|
@@ -10749,7 +13904,7 @@ The Sun's Time begins on the day of the vernal equinox. The months are as follow
 | !--| Atukhos |//March 15 ~ 21//^^1^^ |
 ^^1 - Atukhos is an intercalary period at the end of the year. Its length is as many days as it takes to get from the end of Peis to make the vernal equinox on the first of Aris.^^</pre>
 </div>
-<div created="20201227182542273" creator="Provun" modified="20210113021806112" modifier="Provun" tags="Race Benji" title="Changeling" visibility="hide" visibility ="show">
+<div created="20201227182542273" creator="Provun" modified="20210113021806112" modifier="Provun" tags="Race Benji" title="Changeling" visibility="hide">
 <pre>A mysterious and lesser-seen race, ''changelings'' are somewhat spooky to other races. Humanlike or beastlike, a changeling can appear as either. They're not known to be common at all though, and most people have probably never heard of or considered the possibility of one. They are very alien to most. Yet, just like other races, as soon as one is seen and the initial surprise is passed, they are treated as any other.
 
 Where they intersect with other races, changelings often use their abilities to work as infiltrators, spies, assassins, or much less high-stakes things like incognito monitors. Others work to help others relive memories, as counselors and other things like that. Performance is another common role. It's said that every city has a changeling, but who knows if that's actually true. In the rare cases that there is a known changeling in town, they're not usually alone, and they make themselves very obvious. It could be a mask to keep attention away from other less-obvious ones, but they never say.
@@ -10824,6 +13979,12 @@ Much of urban geography is unmapped at best, completely unknown at worst. Areas 
 !! Southeast
 {{Southeast Desolation}}</pre>
 </div>
+<div created="20210115100837619" creator="Provun" draft.title="$:/palettes/Custom2" modified="20210115100837620" modifier="Provun" title="Draft of '$:/palettes/SpartanNight 1' by Provun">
+<pre></pre>
+</div>
+<div created="20210115040816623" creator="Provun" draft.title="Secrets of Kindred" modified="20210115040816623" modifier="Provun" title="Draft of 'New Tiddler 1' by Provun">
+<pre></pre>
+</div>
 <div created="20210101225019695" creator="Provun" modified="20210112063252607" modifier="Provun" tags="Magic" title="Firekeeper">
 <pre>''Firekeepers'' are figures found in most towns. They are responsible for maintaining fires nominally, but also help the people of their home. Some of those folk seem to have some amount of power or sensitivity though, usually in the form of strange and perhaps prophetic dreams.
 
@@ -10883,6 +14044,27 @@ Grung biology is seemingly tailored to life in [[urbans|Urban]], since water of 
 Other races generally don't prefer to live in these difficult locations, so most of them have barely even heard of grungs, let alone seen one. Grungs also keep to themselves and live communally in small societies, and they rarely if ever travel. When they do, it is done in a group exclusively, with one bearing a [[godsbrand|Godsbrand]] given by their god [[Ango'r]] and blessed with the ability to create water.
 
 Expansion is not usually on their minds, but they fight to keep their homes to the death, especially if it's the only place their hydration and community requirements can be met nearby. They keep their heads down and do what they must, and this philosophy can often extend to their perspectives on life.</pre>
+</div>
+<div created="20210115022701714" creator="Provun" modified="20210115043918553" modifier="Provun" tags="[[Southeast Desolation]]" title="Kindred">
+<pre>[[Kindred]] is the most populous settlement in the region. It stands on the [[Desolation]]-side of Great River, right at the join with Twilight River. New growth of the city has been happening on the opposite side of the river, as well as the Desolation side. A lot of people live in Kindred, and enjoy the protection offered by the city's guards. Though, a sizable number of the city's guards aren't actually part of the city's government, but belong to [[Deus]], a questionable organization, and work as protectors //on behalf of// Kindred. It might not seem like a big difference, but it is. Kindred shares many of its resources with [[Shuar Den]] in Desolation. Kindred is led by [[King Balther]], an aging, beloved king. His heir is [[Councilman Gare]], the leader of the city council.
+
+! Places of Interest
+!! Market Square
+The market square is a bustling strip that touches Great River. There are many stalls here that sell various goods, several of them selling goods scavenged from Desolation by the [[Reclaimers Guild]]. A few shops circle the market, including [[Pharos]]'s tailor shop. 
+
+!! Reclaimers' Den
+Located near the city walls, alongside the road leading to the urban, stands a large stone guildhall for the [[Reclaimers Guild]]. The exterior has some sheets of metal and the windows have glass rather than open air. The guildmaster, [[Garowin]], can usually be found here organizing his group of urban scavengers and explorers. Only Reclaimers are allowed inside the main structure, but a small atrium exists for guests and meetings.
+
+!! Emetum
+Emetum is a tall tower overlooking the city. It has a legendary position as a place where a group of great heroes of old convened in order to defeat an ancient enemy. Today, Emetum is where the wizards of the region congregate and learn. It is said that the tower has a personality or guardian spirit, and in times of great need the tower's staircase inside extends much higher than the tower should allow, toward strange magical realms.
+
+!! Dream Road
+Dream Road is where a lot of the upper-class houses can be found, with beautiful stonework and curtains blowing in the breeze. This district is under close watch by city guard, and no Deus at all.
+
+!! Temple of Sempor
+A mystical, holy temple dedicated to [[Sempor|Sempor (deity)]], the god of mortals. The high priestess, [[Twana]], leads this temple. The temple contains the Holy Baths, public baths that anyone in the city may use. Lights like an aurora flow through the temple at night.
+
+{{Secrets of Kindred}}</pre>
 </div>
 <div created="20210112062213939" creator="Provun" modified="20210112062213939" modifier="Provun" tags="Deity" title="List of Deities">
 <pre>A loose conclave of firekeepers has been working on a catalog of the gods in their true identities. Progress on that front is slow. In the meantime, here is a list of the gods according to how they are worshiped.
